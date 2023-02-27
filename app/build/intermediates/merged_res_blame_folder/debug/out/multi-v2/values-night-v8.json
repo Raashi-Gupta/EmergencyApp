@@ -6,6 +6,60 @@
                 {
                     "source": "C:\\Users\\raash\\.gradle\\caches\\transforms-3\\ada577367486a08f95ae95d343b29c4b\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,47",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,3902",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,3986"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\raash\\AndroidStudioProjects\\EmergencyApp\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "15",
+                        "endColumns": "12",
+                        "endOffsets": "792"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1243"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\raash\\.gradle\\caches\\transforms-3\\70a4b6dd221e545640f35a03024dd34b\\transformed\\material-1.5.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,48,49,50,51,52,53,54,55",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1248,1323,1434,1523,1624,1731,1838,1937,2040,2128,2252,2354,2456,2572,2674,2788,2916,3032,3154,3290,3410,3544,3664,3776,3991,4108,4232,4362,4484,4622,4756,4872",
+                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "1318,1429,1518,1619,1726,1833,1932,2035,2123,2247,2349,2451,2567,2669,2783,2911,3027,3149,3285,3405,3539,3659,3771,3897,4103,4227,4357,4479,4617,4751,4867,4987"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\raash\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-35:\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\raash\\.gradle\\caches\\transforms-3\\ada577367486a08f95ae95d343b29c4b\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
                         "startOffsets": "55,125,209,293,389,491,593,687",

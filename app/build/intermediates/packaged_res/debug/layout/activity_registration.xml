@@ -11,22 +11,27 @@
             android:id="@+id/frameLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/amb_reg" />
+            android:layout_below="@id/amb_reg"
+            />
 
         <Button
             android:id="@+id/amb_reg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_height="50dp"
             android:text="@string/ambulance"
-            android:layout_marginStart="60dp" />
+            android:backgroundTint="@color/red"
+            />
+
 
         <Button
             android:id="@+id/hos_reg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
             android:text="@string/hospital"
             android:layout_toEndOf="@id/amb_reg"
-            android:layout_marginStart="60dp" />
+            android:backgroundTint="@color/red"/>
 
 
 </RelativeLayout>

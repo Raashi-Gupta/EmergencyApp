@@ -25,6 +25,7 @@ id amb_reg
 id aot_fa
 id aot_ra
 id contact
+id emer_act
 id fab
 id frameLayout
 id frgt_pswd
@@ -45,14 +46,12 @@ id nav_slideshow
 id others
 id password
 id radiogrp
-id spinner
 id textView
 id text_gallery
 id text_home
 id text_slideshow
 id toa
 id toolbar
-id toolbar2
 id ucontact
 id uname
 id userid
@@ -89,9 +88,9 @@ string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
 string title_activity_main2
+style AppTheme
 style Theme.EmergencyApp
 style Theme.EmergencyApp.AppBarOverlay
-style Theme.EmergencyApp.NoActionBar
 style Theme.EmergencyApp.PopupOverlay
 xml backup_rules
 xml data_extraction_rules

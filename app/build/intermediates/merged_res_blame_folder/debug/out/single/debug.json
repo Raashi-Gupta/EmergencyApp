@@ -116,10 +116,6 @@
         "source": "C:\\Users\\raash\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.project.emergencyapp-merged_res-37:/layout_activity_main.xml.flat",
-        "source": "com.project.emergencyapp-main-39:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\raash\\.gradle\\daemon\\7.5\\com.project.emergencyapp-merged_res-37:\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\raash\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\activity_login.xml"
     },
@@ -130,6 +126,10 @@
     {
         "merged": "C:\\Users\\raash\\.gradle\\daemon\\7.5\\com.project.emergencyapp-merged_res-37:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\raash\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.project.emergencyapp-merged_res-37:/layout_activity_login.xml.flat",
+        "source": "com.project.emergencyapp-main-39:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\raash\\.gradle\\daemon\\7.5\\com.project.emergencyapp-merged_res-37:\\xml_backup_rules.xml.flat",

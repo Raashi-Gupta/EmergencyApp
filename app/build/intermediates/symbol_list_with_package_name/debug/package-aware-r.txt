@@ -2743,6 +2743,7 @@ id easeOut
 id east
 id edit_query
 id elastic
+id emer_act
 id end
 id endToStart
 id enterAlways
@@ -2979,7 +2980,6 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
-id spinner
 id spline
 id split_action_bar
 id spread
@@ -3046,7 +3046,6 @@ id title_template
 id toa
 id toggle
 id toolbar
-id toolbar2
 id top
 id topPanel
 id touch_outside
@@ -3433,6 +3432,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
+style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -3927,7 +3927,6 @@ style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
 style Theme_EmergencyApp
 style Theme_EmergencyApp_AppBarOverlay
-style Theme_EmergencyApp_NoActionBar
 style Theme_EmergencyApp_PopupOverlay
 style Theme_Material3_Dark
 style Theme_Material3_Dark_BottomSheetDialog

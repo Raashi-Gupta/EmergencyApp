@@ -8,11 +8,9 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RelativeLayout;
-import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.Toolbar;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.project.emergencyapp.R;
@@ -34,19 +32,16 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView contact;
 
   @NonNull
+  public final TextView emerAct;
+
+  @NonNull
   public final TextView name;
 
   @NonNull
   public final RadioButton others;
 
   @NonNull
-  public final Spinner spinner;
-
-  @NonNull
   public final TextView toa;
-
-  @NonNull
-  public final Toolbar toolbar2;
 
   @NonNull
   public final EditText ucontact;
@@ -58,19 +53,17 @@ public final class ActivityMainBinding implements ViewBinding {
   public final RadioGroup utoa;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull RadioButton aotFa,
-      @NonNull RadioButton aotRa, @NonNull TextView contact, @NonNull TextView name,
-      @NonNull RadioButton others, @NonNull Spinner spinner, @NonNull TextView toa,
-      @NonNull Toolbar toolbar2, @NonNull EditText ucontact, @NonNull EditText uname,
-      @NonNull RadioGroup utoa) {
+      @NonNull RadioButton aotRa, @NonNull TextView contact, @NonNull TextView emerAct,
+      @NonNull TextView name, @NonNull RadioButton others, @NonNull TextView toa,
+      @NonNull EditText ucontact, @NonNull EditText uname, @NonNull RadioGroup utoa) {
     this.rootView = rootView;
     this.aotFa = aotFa;
     this.aotRa = aotRa;
     this.contact = contact;
+    this.emerAct = emerAct;
     this.name = name;
     this.others = others;
-    this.spinner = spinner;
     this.toa = toa;
-    this.toolbar2 = toolbar2;
     this.ucontact = ucontact;
     this.uname = uname;
     this.utoa = utoa;
@@ -121,6 +114,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.emer_act;
+      TextView emerAct = ViewBindings.findChildViewById(rootView, id);
+      if (emerAct == null) {
+        break missingId;
+      }
+
       id = R.id.name;
       TextView name = ViewBindings.findChildViewById(rootView, id);
       if (name == null) {
@@ -133,21 +132,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.spinner;
-      Spinner spinner = ViewBindings.findChildViewById(rootView, id);
-      if (spinner == null) {
-        break missingId;
-      }
-
       id = R.id.toa;
       TextView toa = ViewBindings.findChildViewById(rootView, id);
       if (toa == null) {
-        break missingId;
-      }
-
-      id = R.id.toolbar2;
-      Toolbar toolbar2 = ViewBindings.findChildViewById(rootView, id);
-      if (toolbar2 == null) {
         break missingId;
       }
 
@@ -169,8 +156,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, aotFa, aotRa, contact, name, others,
-          spinner, toa, toolbar2, ucontact, uname, utoa);
+      return new ActivityMainBinding((RelativeLayout) rootView, aotFa, aotRa, contact, emerAct,
+          name, others, toa, ucontact, uname, utoa);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
