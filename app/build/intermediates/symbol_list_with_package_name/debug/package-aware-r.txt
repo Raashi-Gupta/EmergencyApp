@@ -2566,9 +2566,12 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id DCon
+id DName
 id FUNCTION
 id META
 id NO_DEBUG
+id Register
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2576,6 +2579,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id VNum
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2709,6 +2713,7 @@ id custom
 id customPanel
 id cut
 id date_picker_actions
+id dconin
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -2728,6 +2733,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id dnamein
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2915,6 +2921,8 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id pass
+id passin
 id password
 id password_toggle
 id path
@@ -2998,6 +3006,7 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
+id sub
 id submenuarrow
 id submit_area
 id supportScrollUp
@@ -3065,6 +3074,7 @@ id unlabeled
 id up
 id useLogo
 id userid
+id userin
 id utoa
 id vertical_only
 id view_offset_helper
@@ -3074,6 +3084,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id vnumin
 id west
 id withText
 id withinBounds

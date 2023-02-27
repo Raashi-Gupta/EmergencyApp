@@ -4,25 +4,82 @@ package com.project.emergencyapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.project.emergencyapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final RelativeLayout rootView;
 
-  private FragmentAmbulanceRegisterFragmentBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final TextView DCon;
+
+  @NonNull
+  public final TextView DName;
+
+  @NonNull
+  public final TextView Register;
+
+  @NonNull
+  public final TextView VNum;
+
+  @NonNull
+  public final EditText dconin;
+
+  @NonNull
+  public final EditText dnamein;
+
+  @NonNull
+  public final TextView pass;
+
+  @NonNull
+  public final EditText passin;
+
+  @NonNull
+  public final Button sub;
+
+  @NonNull
+  public final TextView userid;
+
+  @NonNull
+  public final EditText userin;
+
+  @NonNull
+  public final EditText vnumin;
+
+  private FragmentAmbulanceRegisterFragmentBinding(@NonNull RelativeLayout rootView,
+      @NonNull TextView DCon, @NonNull TextView DName, @NonNull TextView Register,
+      @NonNull TextView VNum, @NonNull EditText dconin, @NonNull EditText dnamein,
+      @NonNull TextView pass, @NonNull EditText passin, @NonNull Button sub,
+      @NonNull TextView userid, @NonNull EditText userin, @NonNull EditText vnumin) {
     this.rootView = rootView;
+    this.DCon = DCon;
+    this.DName = DName;
+    this.Register = Register;
+    this.VNum = VNum;
+    this.dconin = dconin;
+    this.dnamein = dnamein;
+    this.pass = pass;
+    this.passin = passin;
+    this.sub = sub;
+    this.userid = userid;
+    this.userin = userin;
+    this.vnumin = vnumin;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +100,86 @@ public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBindi
 
   @NonNull
   public static FragmentAmbulanceRegisterFragmentBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.DCon;
+      TextView DCon = ViewBindings.findChildViewById(rootView, id);
+      if (DCon == null) {
+        break missingId;
+      }
 
-    return new FragmentAmbulanceRegisterFragmentBinding((FrameLayout) rootView);
+      id = R.id.DName;
+      TextView DName = ViewBindings.findChildViewById(rootView, id);
+      if (DName == null) {
+        break missingId;
+      }
+
+      id = R.id.Register;
+      TextView Register = ViewBindings.findChildViewById(rootView, id);
+      if (Register == null) {
+        break missingId;
+      }
+
+      id = R.id.VNum;
+      TextView VNum = ViewBindings.findChildViewById(rootView, id);
+      if (VNum == null) {
+        break missingId;
+      }
+
+      id = R.id.dconin;
+      EditText dconin = ViewBindings.findChildViewById(rootView, id);
+      if (dconin == null) {
+        break missingId;
+      }
+
+      id = R.id.dnamein;
+      EditText dnamein = ViewBindings.findChildViewById(rootView, id);
+      if (dnamein == null) {
+        break missingId;
+      }
+
+      id = R.id.pass;
+      TextView pass = ViewBindings.findChildViewById(rootView, id);
+      if (pass == null) {
+        break missingId;
+      }
+
+      id = R.id.passin;
+      EditText passin = ViewBindings.findChildViewById(rootView, id);
+      if (passin == null) {
+        break missingId;
+      }
+
+      id = R.id.sub;
+      Button sub = ViewBindings.findChildViewById(rootView, id);
+      if (sub == null) {
+        break missingId;
+      }
+
+      id = R.id.userid;
+      TextView userid = ViewBindings.findChildViewById(rootView, id);
+      if (userid == null) {
+        break missingId;
+      }
+
+      id = R.id.userin;
+      EditText userin = ViewBindings.findChildViewById(rootView, id);
+      if (userin == null) {
+        break missingId;
+      }
+
+      id = R.id.vnumin;
+      EditText vnumin = ViewBindings.findChildViewById(rootView, id);
+      if (vnumin == null) {
+        break missingId;
+      }
+
+      return new FragmentAmbulanceRegisterFragmentBinding((RelativeLayout) rootView, DCon, DName,
+          Register, VNum, dconin, dnamein, pass, passin, sub, userid, userin, vnumin);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

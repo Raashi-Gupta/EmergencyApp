@@ -92,12 +92,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/radiogrp"
         android:layout_centerInParent="true"
-        android:text="Login"
         android:backgroundTint="@color/red"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="414dp"
         android:onClick="btnnext123"
-        />
+        android:text="Login"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="414dp" />
 
 
 

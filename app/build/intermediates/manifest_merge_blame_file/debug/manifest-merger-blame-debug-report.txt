@@ -6,107 +6,107 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
+8-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
+9-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:5:5-35:19
+11-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:5:5-35:19
 12        android:allowBackup="true"
-12-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\raash\.gradle\caches\transforms-3\32b22ae24ddd49268bb45350efca99f0\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\32b22ae24ddd49268bb45350efca99f0\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:7:9-65
+14-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:7:9-65
 15        android:debuggable="true"
 16        android:extractNativeLibs="false"
 17        android:fullBackupContent="@xml/backup_rules"
-17-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:8:9-54
+17-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:8:9-54
 18        android:icon="@mipmap/ic_launcher"
-18-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:9:9-43
+18-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:9:9-43
 19        android:label="@string/app_name"
-19-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:10:9-41
+19-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:10:9-41
 20        android:supportsRtl="true"
-20-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:11:9-35
+20-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:11:9-35
 21        android:testOnly="true"
 22        android:theme="@style/Theme.EmergencyApp" >
-22-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:12:9-50
+22-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:12:9-50
 23        <activity
-23-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:14:9-16:40
+23-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:14:9-16:40
 24            android:name="com.project.emergencyapp.Registration"
-24-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:15:13-41
+24-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:15:13-41
 25            android:exported="false" />
-25-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:16:13-37
+25-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:16:13-37
 26        <activity
-26-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:17:9-19:40
+26-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:17:9-19:40
 27            android:name="com.project.emergencyapp.Ambulance_homepage"
-27-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:18:13-47
+27-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:18:13-47
 28            android:exported="false" />
-28-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:19:13-37
+28-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:19:13-37
 29        <activity
-29-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:20:9-22:40
+29-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:20:9-22:40
 30            android:name="com.project.emergencyapp.Hospital_homepage"
-30-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:21:13-46
+30-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:21:13-46
 31            android:exported="false" />
-31-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:22:13-37
+31-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:22:13-37
 32        <activity
-32-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:23:9-25:40
+32-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:23:9-25:40
 33            android:name="com.project.emergencyapp.Login"
-33-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:24:13-34
+33-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:24:13-34
 34            android:exported="false" />
-34-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:25:13-37
+34-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:25:13-37
 35        <activity
-35-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:26:9-34:20
+35-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:26:9-34:20
 36            android:name="com.project.emergencyapp.MainActivity"
-36-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:27:13-41
+36-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:27:13-41
 37            android:exported="true" >
-37-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:28:13-36
+37-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:28:13-36
 38            <intent-filter>
-38-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:29:13-33:29
+38-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:29:13-33:29
 39                <action android:name="android.intent.action.MAIN" />
-39-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:30:17-69
-39-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:30:25-66
+39-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:30:17-69
+39-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:30:25-66
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:32:17-77
-41-->C:\Users\raash\AndroidStudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:32:27-74
+41-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:32:17-77
+41-->C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:32:27-74
 42            </intent-filter>
 43        </activity>
 44
 45        <provider
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 46            android:name="androidx.startup.InitializationProvider"
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
 47            android:authorities="com.project.emergencyapp.androidx-startup"
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
 48            android:exported="false" >
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
 49            <meta-data
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 51                android:value="androidx.startup" />
-51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
 52            <meta-data
-52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\raash\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\raash\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 54                android:value="androidx.startup" />
-54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\raash\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 55        </provider>
 56
 57        <uses-library
-57-->[androidx.window:window:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+57-->[androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 58            android:name="androidx.window.extensions"
-58-->[androidx.window:window:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+58-->[androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 59            android:required="false" />
-59-->[androidx.window:window:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+59-->[androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 60        <uses-library
-60-->[androidx.window:window:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+60-->[androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 61            android:name="androidx.window.sidecar"
-61-->[androidx.window:window:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+61-->[androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 62            android:required="false" />
-62-->[androidx.window:window:1.0.0] C:\Users\raash\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+62-->[androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 63    </application>
 64
 65</manifest>
