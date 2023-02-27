@@ -1,54 +1,58 @@
 [
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/fragment_home.xml",
-        "source": "com.project.emergencyapp-main-39:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/app_bar_main.xml",
-        "source": "com.project.emergencyapp-main-39:/layout/app_bar_main.xml"
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\fragment_hospital_register_fragment.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\fragment_hospital_register_fragment.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/activity_login.xml",
-        "source": "com.project.emergencyapp-main-39:/layout/activity_login.xml"
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\activity_ambulance_homepage.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\activity_ambulance_homepage.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/activity_main.xml",
-        "source": "com.project.emergencyapp-main-39:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\activity_main.xml"
     },
     {
         "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/fragment_hospital_register_fragment.xml",
         "source": "com.project.emergencyapp-main-39:/layout/fragment_hospital_register_fragment.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/nav_header_main.xml",
-        "source": "com.project.emergencyapp-main-39:/layout/nav_header_main.xml"
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\content_main.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\content_main.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/fragment_slideshow.xml",
-        "source": "com.project.emergencyapp-main-39:/layout/fragment_slideshow.xml"
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/fragment_ambulance_register_fragment.xml",
-        "source": "com.project.emergencyapp-main-39:/layout/fragment_ambulance_register_fragment.xml"
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/activity_registration.xml",
-        "source": "com.project.emergencyapp-main-39:/layout/activity_registration.xml"
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\fragment_ambulance_register_fragment.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\fragment_ambulance_register_fragment.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/activity_hospital_homepage.xml",
-        "source": "com.project.emergencyapp-main-39:/layout/activity_hospital_homepage.xml"
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\fragment_gallery.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/content_main.xml",
-        "source": "com.project.emergencyapp-main-39:/layout/content_main.xml"
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/activity_ambulance_homepage.xml",
-        "source": "com.project.emergencyapp-main-39:/layout/activity_ambulance_homepage.xml"
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\activity_registration.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\activity_registration.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-36:/layout/fragment_gallery.xml",
-        "source": "com.project.emergencyapp-main-39:/layout/fragment_gallery.xml"
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\fragment_slideshow.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-mergeDebugResources-36:\\layout\\activity_hospital_homepage.xml",
+        "source": "C:\\Users\\Mahima\\.gradle\\daemon\\7.5\\com.project.emergencyapp-main-39:\\layout\\activity_hospital_homepage.xml"
     }
 ]

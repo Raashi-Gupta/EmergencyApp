@@ -4,25 +4,150 @@ package com.project.emergencyapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.project.emergencyapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentHospitalRegisterFragmentBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ScrollView rootView;
 
-  private FragmentHospitalRegisterFragmentBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final TextView HCon;
+
+  @NonNull
+  public final TextView HName;
+
+  @NonNull
+  public final TextView Registerh;
+
+  @NonNull
+  public final ScrollView ScrollView01;
+
+  @NonNull
+  public final TextView addh;
+
+  @NonNull
+  public final EditText addhin;
+
+  @NonNull
+  public final CheckBox checkBox1;
+
+  @NonNull
+  public final CheckBox checkBox2;
+
+  @NonNull
+  public final CheckBox checkBox3;
+
+  @NonNull
+  public final CheckBox checkBox4;
+
+  @NonNull
+  public final CheckBox checkBox5;
+
+  @NonNull
+  public final TextView email;
+
+  @NonNull
+  public final EditText emailin;
+
+  @NonNull
+  public final RadioButton gbtn;
+
+  @NonNull
+  public final EditText hconin;
+
+  @NonNull
+  public final EditText hnamein;
+
+  @NonNull
+  public final TextView ht;
+
+  @NonNull
+  public final TextView passh;
+
+  @NonNull
+  public final TextView passhc;
+
+  @NonNull
+  public final EditText passhcin;
+
+  @NonNull
+  public final EditText passhin;
+
+  @NonNull
+  public final RadioButton pbtn;
+
+  @NonNull
+  public final RadioGroup radiogrph;
+
+  @NonNull
+  public final Button sub;
+
+  @NonNull
+  public final TextView toh;
+
+  @NonNull
+  public final TextView uid;
+
+  @NonNull
+  public final EditText uidin;
+
+  private FragmentHospitalRegisterFragmentBinding(@NonNull ScrollView rootView,
+      @NonNull TextView HCon, @NonNull TextView HName, @NonNull TextView Registerh,
+      @NonNull ScrollView ScrollView01, @NonNull TextView addh, @NonNull EditText addhin,
+      @NonNull CheckBox checkBox1, @NonNull CheckBox checkBox2, @NonNull CheckBox checkBox3,
+      @NonNull CheckBox checkBox4, @NonNull CheckBox checkBox5, @NonNull TextView email,
+      @NonNull EditText emailin, @NonNull RadioButton gbtn, @NonNull EditText hconin,
+      @NonNull EditText hnamein, @NonNull TextView ht, @NonNull TextView passh,
+      @NonNull TextView passhc, @NonNull EditText passhcin, @NonNull EditText passhin,
+      @NonNull RadioButton pbtn, @NonNull RadioGroup radiogrph, @NonNull Button sub,
+      @NonNull TextView toh, @NonNull TextView uid, @NonNull EditText uidin) {
     this.rootView = rootView;
+    this.HCon = HCon;
+    this.HName = HName;
+    this.Registerh = Registerh;
+    this.ScrollView01 = ScrollView01;
+    this.addh = addh;
+    this.addhin = addhin;
+    this.checkBox1 = checkBox1;
+    this.checkBox2 = checkBox2;
+    this.checkBox3 = checkBox3;
+    this.checkBox4 = checkBox4;
+    this.checkBox5 = checkBox5;
+    this.email = email;
+    this.emailin = emailin;
+    this.gbtn = gbtn;
+    this.hconin = hconin;
+    this.hnamein = hnamein;
+    this.ht = ht;
+    this.passh = passh;
+    this.passhc = passhc;
+    this.passhcin = passhcin;
+    this.passhin = passhin;
+    this.pbtn = pbtn;
+    this.radiogrph = radiogrph;
+    this.sub = sub;
+    this.toh = toh;
+    this.uid = uid;
+    this.uidin = uidin;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -43,10 +168,174 @@ public final class FragmentHospitalRegisterFragmentBinding implements ViewBindin
 
   @NonNull
   public static FragmentHospitalRegisterFragmentBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.HCon;
+      TextView HCon = ViewBindings.findChildViewById(rootView, id);
+      if (HCon == null) {
+        break missingId;
+      }
 
-    return new FragmentHospitalRegisterFragmentBinding((FrameLayout) rootView);
+      id = R.id.HName;
+      TextView HName = ViewBindings.findChildViewById(rootView, id);
+      if (HName == null) {
+        break missingId;
+      }
+
+      id = R.id.Registerh;
+      TextView Registerh = ViewBindings.findChildViewById(rootView, id);
+      if (Registerh == null) {
+        break missingId;
+      }
+
+      ScrollView ScrollView01 = (ScrollView) rootView;
+
+      id = R.id.addh;
+      TextView addh = ViewBindings.findChildViewById(rootView, id);
+      if (addh == null) {
+        break missingId;
+      }
+
+      id = R.id.addhin;
+      EditText addhin = ViewBindings.findChildViewById(rootView, id);
+      if (addhin == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox1;
+      CheckBox checkBox1 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox1 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox2;
+      CheckBox checkBox2 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox2 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox3;
+      CheckBox checkBox3 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox3 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox4;
+      CheckBox checkBox4 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox4 == null) {
+        break missingId;
+      }
+
+      id = R.id.checkBox5;
+      CheckBox checkBox5 = ViewBindings.findChildViewById(rootView, id);
+      if (checkBox5 == null) {
+        break missingId;
+      }
+
+      id = R.id.email;
+      TextView email = ViewBindings.findChildViewById(rootView, id);
+      if (email == null) {
+        break missingId;
+      }
+
+      id = R.id.emailin;
+      EditText emailin = ViewBindings.findChildViewById(rootView, id);
+      if (emailin == null) {
+        break missingId;
+      }
+
+      id = R.id.gbtn;
+      RadioButton gbtn = ViewBindings.findChildViewById(rootView, id);
+      if (gbtn == null) {
+        break missingId;
+      }
+
+      id = R.id.hconin;
+      EditText hconin = ViewBindings.findChildViewById(rootView, id);
+      if (hconin == null) {
+        break missingId;
+      }
+
+      id = R.id.hnamein;
+      EditText hnamein = ViewBindings.findChildViewById(rootView, id);
+      if (hnamein == null) {
+        break missingId;
+      }
+
+      id = R.id.ht;
+      TextView ht = ViewBindings.findChildViewById(rootView, id);
+      if (ht == null) {
+        break missingId;
+      }
+
+      id = R.id.passh;
+      TextView passh = ViewBindings.findChildViewById(rootView, id);
+      if (passh == null) {
+        break missingId;
+      }
+
+      id = R.id.passhc;
+      TextView passhc = ViewBindings.findChildViewById(rootView, id);
+      if (passhc == null) {
+        break missingId;
+      }
+
+      id = R.id.passhcin;
+      EditText passhcin = ViewBindings.findChildViewById(rootView, id);
+      if (passhcin == null) {
+        break missingId;
+      }
+
+      id = R.id.passhin;
+      EditText passhin = ViewBindings.findChildViewById(rootView, id);
+      if (passhin == null) {
+        break missingId;
+      }
+
+      id = R.id.pbtn;
+      RadioButton pbtn = ViewBindings.findChildViewById(rootView, id);
+      if (pbtn == null) {
+        break missingId;
+      }
+
+      id = R.id.radiogrph;
+      RadioGroup radiogrph = ViewBindings.findChildViewById(rootView, id);
+      if (radiogrph == null) {
+        break missingId;
+      }
+
+      id = R.id.sub;
+      Button sub = ViewBindings.findChildViewById(rootView, id);
+      if (sub == null) {
+        break missingId;
+      }
+
+      id = R.id.toh;
+      TextView toh = ViewBindings.findChildViewById(rootView, id);
+      if (toh == null) {
+        break missingId;
+      }
+
+      id = R.id.uid;
+      TextView uid = ViewBindings.findChildViewById(rootView, id);
+      if (uid == null) {
+        break missingId;
+      }
+
+      id = R.id.uidin;
+      EditText uidin = ViewBindings.findChildViewById(rootView, id);
+      if (uidin == null) {
+        break missingId;
+      }
+
+      return new FragmentHospitalRegisterFragmentBinding((ScrollView) rootView, HCon, HName,
+          Registerh, ScrollView01, addh, addhin, checkBox1, checkBox2, checkBox3, checkBox4,
+          checkBox5, email, emailin, gbtn, hconin, hnamein, ht, passh, passhc, passhcin, passhin,
+          pbtn, radiogrph, sub, toh, uid, uidin);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

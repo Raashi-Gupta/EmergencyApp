@@ -28,7 +28,7 @@ public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBindi
   public final TextView DName;
 
   @NonNull
-  public final TextView Register;
+  public final TextView Registera;
 
   @NonNull
   public final TextView VNum;
@@ -41,6 +41,12 @@ public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBindi
 
   @NonNull
   public final TextView pass;
+
+  @NonNull
+  public final TextView passc;
+
+  @NonNull
+  public final EditText passcin;
 
   @NonNull
   public final EditText passin;
@@ -58,18 +64,21 @@ public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBindi
   public final EditText vnumin;
 
   private FragmentAmbulanceRegisterFragmentBinding(@NonNull RelativeLayout rootView,
-      @NonNull TextView DCon, @NonNull TextView DName, @NonNull TextView Register,
+      @NonNull TextView DCon, @NonNull TextView DName, @NonNull TextView Registera,
       @NonNull TextView VNum, @NonNull EditText dconin, @NonNull EditText dnamein,
-      @NonNull TextView pass, @NonNull EditText passin, @NonNull Button sub,
-      @NonNull TextView userid, @NonNull EditText userin, @NonNull EditText vnumin) {
+      @NonNull TextView pass, @NonNull TextView passc, @NonNull EditText passcin,
+      @NonNull EditText passin, @NonNull Button sub, @NonNull TextView userid,
+      @NonNull EditText userin, @NonNull EditText vnumin) {
     this.rootView = rootView;
     this.DCon = DCon;
     this.DName = DName;
-    this.Register = Register;
+    this.Registera = Registera;
     this.VNum = VNum;
     this.dconin = dconin;
     this.dnamein = dnamein;
     this.pass = pass;
+    this.passc = passc;
+    this.passcin = passcin;
     this.passin = passin;
     this.sub = sub;
     this.userid = userid;
@@ -116,9 +125,9 @@ public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBindi
         break missingId;
       }
 
-      id = R.id.Register;
-      TextView Register = ViewBindings.findChildViewById(rootView, id);
-      if (Register == null) {
+      id = R.id.Registera;
+      TextView Registera = ViewBindings.findChildViewById(rootView, id);
+      if (Registera == null) {
         break missingId;
       }
 
@@ -143,6 +152,18 @@ public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBindi
       id = R.id.pass;
       TextView pass = ViewBindings.findChildViewById(rootView, id);
       if (pass == null) {
+        break missingId;
+      }
+
+      id = R.id.passc;
+      TextView passc = ViewBindings.findChildViewById(rootView, id);
+      if (passc == null) {
+        break missingId;
+      }
+
+      id = R.id.passcin;
+      EditText passcin = ViewBindings.findChildViewById(rootView, id);
+      if (passcin == null) {
         break missingId;
       }
 
@@ -177,7 +198,8 @@ public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBindi
       }
 
       return new FragmentAmbulanceRegisterFragmentBinding((RelativeLayout) rootView, DCon, DName,
-          Register, VNum, dconin, dnamein, pass, passin, sub, userid, userin, vnumin);
+          Registera, VNum, dconin, dnamein, pass, passc, passcin, passin, sub, userid, userin,
+          vnumin);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
