@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.project.emergencyapp-mergeDebugResources-35:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.project.emergencyapp-mergeDebugResources-39:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mahima\\.gradle\\caches\\transforms-3\\ada577367486a08f95ae95d343b29c4b\\transformed\\appcompat-1.4.1\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Mahima\\.gradle\\caches\\transforms-3\\25752188f370a1a6c78bdba0b9bde02b\\transformed\\appcompat-1.4.1\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Mahima\\.gradle\\caches\\transforms-3\\32b22ae24ddd49268bb45350efca99f0\\transformed\\core-1.7.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Mahima\\.gradle\\caches\\transforms-3\\b6193742be14e2cf92eec5b3c70876e3\\transformed\\core-1.7.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

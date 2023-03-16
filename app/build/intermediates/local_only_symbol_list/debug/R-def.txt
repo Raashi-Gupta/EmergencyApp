@@ -35,6 +35,8 @@ id amb_bttn
 id amb_reg
 id aot_fa
 id aot_ra
+id button_check
+id button_notify
 id checkBox1
 id checkBox2
 id checkBox3
@@ -117,6 +119,13 @@ navigation mobile_navigation
 string action_settings
 string ambulance
 string app_name
+string default_web_client_id
+string firebase_database_url
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
 string hospital
 string menu_gallery
@@ -127,6 +136,7 @@ string nav_header_subtitle
 string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
+string project_id
 string title_activity_main2
 style AppTheme
 style Theme.EmergencyApp

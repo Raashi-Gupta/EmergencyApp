@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">38240024683-etq8cavkrupr48sdjqhgrba60fm7b54f.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://emergency-project-mahima-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">38240024683</string>
+    <string name="google_api_key" translatable="false">AIzaSyDCsSRHsvTjd9YMbazJLOUZW_wH1yMZnAo</string>
+    <string name="google_app_id" translatable="false">1:38240024683:android:b7f6f4013ab38d5e49d92e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDCsSRHsvTjd9YMbazJLOUZW_wH1yMZnAo</string>
+    <string name="google_storage_bucket" translatable="false">emergency-project-mahima.appspot.com</string>
+    <string name="project_id" translatable="false">emergency-project-mahima</string>
+</resources>

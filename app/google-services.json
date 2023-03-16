@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "38240024683",
+    "firebase_url": "https://emergency-project-mahima-default-rtdb.firebaseio.com",
+    "project_id": "emergency-project-mahima",
+    "storage_bucket": "emergency-project-mahima.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38240024683:android:b7f6f4013ab38d5e49d92e",
+        "android_client_info": {
+          "package_name": "com.project.emergencyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38240024683-etq8cavkrupr48sdjqhgrba60fm7b54f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCsSRHsvTjd9YMbazJLOUZW_wH1yMZnAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38240024683-etq8cavkrupr48sdjqhgrba60fm7b54f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

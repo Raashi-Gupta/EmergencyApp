@@ -1,102 +1,133 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-37:12
-MERGED from [androidx.databinding:viewbinding:7.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\5e4f587c049de9aef1689456d23061a8\transformed\viewbinding-7.4.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-ui:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\38716d569a8e30a53ca0fff3e16a95a5\transformed\navigation-ui-2.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mahima\.gradle\caches\transforms-3\70a4b6dd221e545640f35a03024dd34b\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Mahima\.gradle\caches\transforms-3\c86f49f81ef78aa82a4d0876b1cab401\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\ada577367486a08f95ae95d343b29c4b\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\c40e0bcad6b9723051de4c25ff30fac8\transformed\lifecycle-livedata-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\48b95f18786234b5fc859f5ad3772238\transformed\navigation-fragment-2.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\540a0d6bbe652962779479b759e52e4a\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\a820c105d805e71e474795157a70a97f\transformed\navigation-runtime-2.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\Mahima\.gradle\caches\transforms-3\cc32c96d8e4514bc4d026f54591b15d2\transformed\activity-ktx-1.2.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\7732193ff2879f974b8b2433f4784250\transformed\navigation-common-2.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\2e65ebb375dd1c87a4a3f6b3defeb0e8\transformed\lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\d79342ee9818b768bd3b596a7b57b752\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\a408af0af449bdf93b6a0e6b64ee5a51\transformed\fragment-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\Mahima\.gradle\caches\transforms-3\db234dc7cf7036f87982168c131e5cb3\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\d32cf60dd178c354259ca0a75dbf25af\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\6d34b81eabc06a49cef4f2f732549656\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\a3a03d46ae5442b50598cd9d2958ec7b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\a2e230625f9cadea5eed95dc3ca61391\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\ee3ae8f1d764d3914a415879637879bb\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\dcab2ccd2afeb68d5dbad6d576d2d43c\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\85fd1d3c9f702ad2a1060334e8ba52fe\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Mahima\.gradle\caches\transforms-3\45f295ff1a5f2858258d1b84cf8be3a8\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\bbb54ae256d8f6b016ef7e8ffeda0f37\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\ffa6ff59be780381963989a9f5cf67d3\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\a319f67dd8962771fc5fdd9f7eaa0f06\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\dc97d6ce0b4fe9761cb7382a11c15f82\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Mahima\.gradle\caches\transforms-3\25864243c45371d1f133a00c13ac82f5\transformed\core-ktx-1.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.transition:transition:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\6a95bbf0b7c2010ea17f4a5fd8233e1f\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\85f86d78fcd14a3f534bf898212a06d9\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\32b22ae24ddd49268bb45350efca99f0\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\92dbb525ace016fe3f791d4316ca6187\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\c1d1f20497d21a7ae578ce830cc1db42\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\35b89f81b813dd8ea5dc774b0fbfe788\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\7cac1b6717abb94e4f916c6ebfd1da5a\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\ee0027bc9d5788a8013686284e27f76a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\e990de03f4d21da71b495eb3d9cc61f0\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\2588dbebb914a4847c23b9e2e9390de9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\04137dab713f24befb7f76018578497c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\666783bae71031cb449f42748cc82aaf\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\7aefc2c750e9911d748fc9260aac61c8\transformed\lifecycle-livedata-2.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdf0d9cf7ca1b22d0ba1b23ee3e10a3b\transformed\lifecycle-livedata-core-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\3226df1146e9d4ff75b00aa51268e219\transformed\lifecycle-livedata-core-2.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\c8f4d196ff570c9a8d705344ff4d6cb8\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\c808e21cb44ba80f74225779dde570af\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\65503080a3128e0eb6820fb4620289f6\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\e6feb0a9bf1c6632f275ad2bd5042b74\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\768ce08253bf00b423db5e4145f1008b\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\ba26b032571efe3047e393aed466c638\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\8d866ddde2cdf8a7053c54c56694d22e\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\cf17040dba9b475bf09190f046a6996d\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [androidx.databinding:viewbinding:7.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\f8cc27ce7b50f759069b19254bbd9ea2\transformed\viewbinding-7.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\98c0bb41efda54a88e484b931c22795a\transformed\navigation-ui-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mahima\.gradle\caches\transforms-3\8cdd3ff77c858fe412a16b13b2c73177\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Mahima\.gradle\caches\transforms-3\ffafd459888045ca44ea736135b30c52\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\25752188f370a1a6c78bdba0b9bde02b\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\1b07aabc0b1602e5deaa4d367c1bc3c2\transformed\lifecycle-livedata-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\0bb267c331e2ccd089e0121597b3b1f7\transformed\navigation-fragment-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\d5bf0ae531ceea090293e71cbcf14716\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\fae3a5f84a36038c8a9922901198ae68\transformed\navigation-runtime-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\Mahima\.gradle\caches\transforms-3\3f2cc50c6f8af8f941b278d4f69b3df0\transformed\activity-ktx-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\6d66ca06dca2101d0bbd3626b6ba58f2\transformed\navigation-common-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\42ffd0cc6790fd5e9e34f9d5e60bfb38\transformed\lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\77a3d7a35335d333a01be0227aa9946f\transformed\firebase-appcheck-interop-16.1.1\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\c3595bf234521e6b3f6703f9f3fae22a\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Mahima\.gradle\caches\transforms-3\cc995de9aceb1ac30eb5ace2e5956441\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mahima\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Mahima\.gradle\caches\transforms-3\ca9a90cc951827426b66c62bc6cb2a3f\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Mahima\.gradle\caches\transforms-3\5fecb92d1a5e2ba2d8897812d57e9e7f\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\d78c5ffbc47ae8713412e20ab9381e18\transformed\fragment-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Mahima\.gradle\caches\transforms-3\0f78b978251080eb2c0ddf4d0c3004c5\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\5281cbc2a3b725fb0c7fb844613feace\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\1d6511af98d2f13fe65c66c7e50771c3\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\5c0e21734481f1755ed8cdacd949449e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\7183811079183eb1ce1b01bd937b4f9d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\4450bb23fb026e7b936b659f58ff76b8\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\d4ab460bd57e8c748003ae5550e8c4c0\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\ed2a60612d5f77091e99fbc180c52955\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Mahima\.gradle\caches\transforms-3\6f7c903c095d2014c5305f67fdd196ae\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\4d9da22dcae15a4cb04dfcec99dc93cb\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\a69ed1ba0306fe58f48401bff3377521\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\01f6cfa570c422b63345b2d2e5bce002\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\e37665f3b49d2e00f490430bb01ec0a6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Mahima\.gradle\caches\transforms-3\a0173b7667da6881fe7241e463e09e20\transformed\core-ktx-1.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\1ab6f894baed7934ddc2a05f351cf22c\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\9e231cc669a98adc22f31757db979ac9\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\c5fb04182dd9f89ea10256565644cee0\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6193742be14e2cf92eec5b3c70876e3\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\528b4fdc40341f759b567b6297d03d32\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\c9fbe8d5a68bc400e9ddd45ef1d96b1e\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\932f2cf7d39f8ad9d4e5ed8975a44264\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\82f211194393e043032ac3876d7412f4\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\3fe1b3d0ae379aca7b41d1084269423d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\9969f2246e6e158f99b5fbbb8a462145\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\2bc1c9dc21a9c86e190b9edb250a6f0b\transformed\firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\f9aaeaf849bd3a7496ae3e1e5398dfcd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\6b47b8759a317a8b215fa81a1c0882ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\2d7298af760bb715cd7e1ac4b7c67e98\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\a89b4176ae0482bc5fee7d8fee2c1477\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\78ba350d3daff8d88f18836d29c25de5\transformed\lifecycle-livedata-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\1362d2e8fa6b666e1d7606e4bb2166c6\transformed\lifecycle-livedata-core-ktx-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\1bbff8741a5d9ed9bf4cb5f6543481ac\transformed\lifecycle-livedata-core-2.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\999c898940903dd6e3e02edabd927058\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\974ad29d09dfa38ef3b36af09034feda\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\b33fa6960ef7f5c9ee370301c6e4e059\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\abed7ea1f5def48ce751ffca14d1f684\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\c1a6115d276eb1e755d92eacac6a76eb\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\8bf8b51b69064d06b03e1c29175458d5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\2563139f2a7b630213d2148e2525fdb5\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\af2ffc81d23958a09ae00e61d88a0759\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\cfb51d0d05fa3bf25aaa889bdd19e840\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Mahima\.gradle\caches\transforms-3\9945c5dfa4a6e66e3b3c65f3b8d3f720\transformed\grpc-android-1.52.1\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:4:1-80
+MERGED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:4:18-60
 application
-ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:5:5-35:19
-MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mahima\.gradle\caches\transforms-3\70a4b6dd221e545640f35a03024dd34b\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mahima\.gradle\caches\transforms-3\70a4b6dd221e545640f35a03024dd34b\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Mahima\.gradle\caches\transforms-3\c86f49f81ef78aa82a4d0876b1cab401\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Mahima\.gradle\caches\transforms-3\c86f49f81ef78aa82a4d0876b1cab401\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\32b22ae24ddd49268bb45350efca99f0\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\32b22ae24ddd49268bb45350efca99f0\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\2588dbebb914a4847c23b9e2e9390de9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\2588dbebb914a4847c23b9e2e9390de9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\04137dab713f24befb7f76018578497c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\04137dab713f24befb7f76018578497c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:5:5-37:19
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mahima\.gradle\caches\transforms-3\8cdd3ff77c858fe412a16b13b2c73177\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mahima\.gradle\caches\transforms-3\8cdd3ff77c858fe412a16b13b2c73177\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Mahima\.gradle\caches\transforms-3\ffafd459888045ca44ea736135b30c52\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Mahima\.gradle\caches\transforms-3\ffafd459888045ca44ea736135b30c52\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\77a3d7a35335d333a01be0227aa9946f\transformed\firebase-appcheck-interop-16.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\77a3d7a35335d333a01be0227aa9946f\transformed\firebase-appcheck-interop-16.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mahima\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mahima\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Mahima\.gradle\caches\transforms-3\ca9a90cc951827426b66c62bc6cb2a3f\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Mahima\.gradle\caches\transforms-3\ca9a90cc951827426b66c62bc6cb2a3f\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Mahima\.gradle\caches\transforms-3\5fecb92d1a5e2ba2d8897812d57e9e7f\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Mahima\.gradle\caches\transforms-3\5fecb92d1a5e2ba2d8897812d57e9e7f\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\9e231cc669a98adc22f31757db979ac9\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\9e231cc669a98adc22f31757db979ac9\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6193742be14e2cf92eec5b3c70876e3\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6193742be14e2cf92eec5b3c70876e3\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\f9aaeaf849bd3a7496ae3e1e5398dfcd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\f9aaeaf849bd3a7496ae3e1e5398dfcd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\6b47b8759a317a8b215fa81a1c0882ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\6b47b8759a317a8b215fa81a1c0882ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\2d7298af760bb715cd7e1ac4b7c67e98\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\2d7298af760bb715cd7e1ac4b7c67e98\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\32b22ae24ddd49268bb45350efca99f0\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6193742be14e2cf92eec5b3c70876e3\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
@@ -104,7 +135,7 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\cac
 	android:fullBackupContent
 		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:8:9-54
 	tools:targetApi
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:13:9-29
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:14:9-29
 	android:icon
 		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
@@ -113,158 +144,188 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\cac
 		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:12:9-50
 	android:dataExtractionRules
 		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:7:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:13:9-44
+uses-library#org.apache.http.legacy
+ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:15:9-101
+	android:required
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:15:61-85
+	android:name
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:15:23-60
 activity#com.project.emergencyapp.Registration
-ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:14:9-16:40
+ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:exported
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:16:13-37
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:17:13-41
 activity#com.project.emergencyapp.Ambulance_homepage
-ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:17:9-19:40
+ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:18:13-47
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:20:13-47
 activity#com.project.emergencyapp.Hospital_homepage
-ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:20:9-22:40
+ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:21:13-46
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:23:13-46
 activity#com.project.emergencyapp.Login
-ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:23:9-25:40
+ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:24:13-34
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:26:13-34
 activity#com.project.emergencyapp.MainActivity
-ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:26:9-34:20
+ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:exported
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:28:13-36
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:27:13-41
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:29:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml:34:27-74
 uses-sdk
 INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:7.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\5e4f587c049de9aef1689456d23061a8\transformed\viewbinding-7.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.databinding:viewbinding:7.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\5e4f587c049de9aef1689456d23061a8\transformed\viewbinding-7.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-ui:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\38716d569a8e30a53ca0fff3e16a95a5\transformed\navigation-ui-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\38716d569a8e30a53ca0fff3e16a95a5\transformed\navigation-ui-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mahima\.gradle\caches\transforms-3\70a4b6dd221e545640f35a03024dd34b\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mahima\.gradle\caches\transforms-3\70a4b6dd221e545640f35a03024dd34b\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Mahima\.gradle\caches\transforms-3\c86f49f81ef78aa82a4d0876b1cab401\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Mahima\.gradle\caches\transforms-3\c86f49f81ef78aa82a4d0876b1cab401\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\ada577367486a08f95ae95d343b29c4b\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\ada577367486a08f95ae95d343b29c4b\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\c40e0bcad6b9723051de4c25ff30fac8\transformed\lifecycle-livedata-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\c40e0bcad6b9723051de4c25ff30fac8\transformed\lifecycle-livedata-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\48b95f18786234b5fc859f5ad3772238\transformed\navigation-fragment-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\48b95f18786234b5fc859f5ad3772238\transformed\navigation-fragment-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\540a0d6bbe652962779479b759e52e4a\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\540a0d6bbe652962779479b759e52e4a\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\a820c105d805e71e474795157a70a97f\transformed\navigation-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\a820c105d805e71e474795157a70a97f\transformed\navigation-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\Mahima\.gradle\caches\transforms-3\cc32c96d8e4514bc4d026f54591b15d2\transformed\activity-ktx-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\Mahima\.gradle\caches\transforms-3\cc32c96d8e4514bc4d026f54591b15d2\transformed\activity-ktx-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\7732193ff2879f974b8b2433f4784250\transformed\navigation-common-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\7732193ff2879f974b8b2433f4784250\transformed\navigation-common-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\2e65ebb375dd1c87a4a3f6b3defeb0e8\transformed\lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\2e65ebb375dd1c87a4a3f6b3defeb0e8\transformed\lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\d79342ee9818b768bd3b596a7b57b752\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\d79342ee9818b768bd3b596a7b57b752\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\a408af0af449bdf93b6a0e6b64ee5a51\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\a408af0af449bdf93b6a0e6b64ee5a51\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\Mahima\.gradle\caches\transforms-3\db234dc7cf7036f87982168c131e5cb3\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\Mahima\.gradle\caches\transforms-3\db234dc7cf7036f87982168c131e5cb3\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\d32cf60dd178c354259ca0a75dbf25af\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\d32cf60dd178c354259ca0a75dbf25af\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\6d34b81eabc06a49cef4f2f732549656\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\6d34b81eabc06a49cef4f2f732549656\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\a3a03d46ae5442b50598cd9d2958ec7b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\a3a03d46ae5442b50598cd9d2958ec7b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\a2e230625f9cadea5eed95dc3ca61391\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\a2e230625f9cadea5eed95dc3ca61391\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\ee3ae8f1d764d3914a415879637879bb\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\ee3ae8f1d764d3914a415879637879bb\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\dcab2ccd2afeb68d5dbad6d576d2d43c\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\dcab2ccd2afeb68d5dbad6d576d2d43c\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\85fd1d3c9f702ad2a1060334e8ba52fe\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\85fd1d3c9f702ad2a1060334e8ba52fe\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Mahima\.gradle\caches\transforms-3\45f295ff1a5f2858258d1b84cf8be3a8\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Mahima\.gradle\caches\transforms-3\45f295ff1a5f2858258d1b84cf8be3a8\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\bbb54ae256d8f6b016ef7e8ffeda0f37\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\bbb54ae256d8f6b016ef7e8ffeda0f37\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\ffa6ff59be780381963989a9f5cf67d3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\ffa6ff59be780381963989a9f5cf67d3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\a319f67dd8962771fc5fdd9f7eaa0f06\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\a319f67dd8962771fc5fdd9f7eaa0f06\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\dc97d6ce0b4fe9761cb7382a11c15f82\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\dc97d6ce0b4fe9761cb7382a11c15f82\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Mahima\.gradle\caches\transforms-3\25864243c45371d1f133a00c13ac82f5\transformed\core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Mahima\.gradle\caches\transforms-3\25864243c45371d1f133a00c13ac82f5\transformed\core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.transition:transition:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\6a95bbf0b7c2010ea17f4a5fd8233e1f\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\6a95bbf0b7c2010ea17f4a5fd8233e1f\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\85f86d78fcd14a3f534bf898212a06d9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\85f86d78fcd14a3f534bf898212a06d9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\32b22ae24ddd49268bb45350efca99f0\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\32b22ae24ddd49268bb45350efca99f0\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\92dbb525ace016fe3f791d4316ca6187\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\92dbb525ace016fe3f791d4316ca6187\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\c1d1f20497d21a7ae578ce830cc1db42\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\c1d1f20497d21a7ae578ce830cc1db42\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\35b89f81b813dd8ea5dc774b0fbfe788\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\35b89f81b813dd8ea5dc774b0fbfe788\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\7cac1b6717abb94e4f916c6ebfd1da5a\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\7cac1b6717abb94e4f916c6ebfd1da5a\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\ee0027bc9d5788a8013686284e27f76a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\ee0027bc9d5788a8013686284e27f76a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\e990de03f4d21da71b495eb3d9cc61f0\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\e990de03f4d21da71b495eb3d9cc61f0\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\2588dbebb914a4847c23b9e2e9390de9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\2588dbebb914a4847c23b9e2e9390de9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\04137dab713f24befb7f76018578497c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\04137dab713f24befb7f76018578497c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\666783bae71031cb449f42748cc82aaf\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\666783bae71031cb449f42748cc82aaf\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\7aefc2c750e9911d748fc9260aac61c8\transformed\lifecycle-livedata-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\7aefc2c750e9911d748fc9260aac61c8\transformed\lifecycle-livedata-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdf0d9cf7ca1b22d0ba1b23ee3e10a3b\transformed\lifecycle-livedata-core-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdf0d9cf7ca1b22d0ba1b23ee3e10a3b\transformed\lifecycle-livedata-core-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\3226df1146e9d4ff75b00aa51268e219\transformed\lifecycle-livedata-core-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\3226df1146e9d4ff75b00aa51268e219\transformed\lifecycle-livedata-core-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\c8f4d196ff570c9a8d705344ff4d6cb8\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\c8f4d196ff570c9a8d705344ff4d6cb8\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\c808e21cb44ba80f74225779dde570af\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\c808e21cb44ba80f74225779dde570af\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\65503080a3128e0eb6820fb4620289f6\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\65503080a3128e0eb6820fb4620289f6\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\e6feb0a9bf1c6632f275ad2bd5042b74\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\e6feb0a9bf1c6632f275ad2bd5042b74\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\768ce08253bf00b423db5e4145f1008b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\768ce08253bf00b423db5e4145f1008b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\ba26b032571efe3047e393aed466c638\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\ba26b032571efe3047e393aed466c638\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\8d866ddde2cdf8a7053c54c56694d22e\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\8d866ddde2cdf8a7053c54c56694d22e\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\cf17040dba9b475bf09190f046a6996d\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\cf17040dba9b475bf09190f046a6996d\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\f8cc27ce7b50f759069b19254bbd9ea2\transformed\viewbinding-7.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:7.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\f8cc27ce7b50f759069b19254bbd9ea2\transformed\viewbinding-7.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\98c0bb41efda54a88e484b931c22795a\transformed\navigation-ui-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\98c0bb41efda54a88e484b931c22795a\transformed\navigation-ui-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mahima\.gradle\caches\transforms-3\8cdd3ff77c858fe412a16b13b2c73177\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mahima\.gradle\caches\transforms-3\8cdd3ff77c858fe412a16b13b2c73177\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Mahima\.gradle\caches\transforms-3\ffafd459888045ca44ea736135b30c52\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Mahima\.gradle\caches\transforms-3\ffafd459888045ca44ea736135b30c52\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\25752188f370a1a6c78bdba0b9bde02b\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\25752188f370a1a6c78bdba0b9bde02b\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\1b07aabc0b1602e5deaa4d367c1bc3c2\transformed\lifecycle-livedata-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\1b07aabc0b1602e5deaa4d367c1bc3c2\transformed\lifecycle-livedata-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\0bb267c331e2ccd089e0121597b3b1f7\transformed\navigation-fragment-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\0bb267c331e2ccd089e0121597b3b1f7\transformed\navigation-fragment-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\d5bf0ae531ceea090293e71cbcf14716\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\d5bf0ae531ceea090293e71cbcf14716\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\fae3a5f84a36038c8a9922901198ae68\transformed\navigation-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\fae3a5f84a36038c8a9922901198ae68\transformed\navigation-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\Mahima\.gradle\caches\transforms-3\3f2cc50c6f8af8f941b278d4f69b3df0\transformed\activity-ktx-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.3] C:\Users\Mahima\.gradle\caches\transforms-3\3f2cc50c6f8af8f941b278d4f69b3df0\transformed\activity-ktx-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\6d66ca06dca2101d0bbd3626b6ba58f2\transformed\navigation-common-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\6d66ca06dca2101d0bbd3626b6ba58f2\transformed\navigation-common-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\42ffd0cc6790fd5e9e34f9d5e60bfb38\transformed\lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\42ffd0cc6790fd5e9e34f9d5e60bfb38\transformed\lifecycle-viewmodel-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\77a3d7a35335d333a01be0227aa9946f\transformed\firebase-appcheck-interop-16.1.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\77a3d7a35335d333a01be0227aa9946f\transformed\firebase-appcheck-interop-16.1.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\c3595bf234521e6b3f6703f9f3fae22a\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\c3595bf234521e6b3f6703f9f3fae22a\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Mahima\.gradle\caches\transforms-3\cc995de9aceb1ac30eb5ace2e5956441\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Mahima\.gradle\caches\transforms-3\cc995de9aceb1ac30eb5ace2e5956441\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mahima\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mahima\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Mahima\.gradle\caches\transforms-3\ca9a90cc951827426b66c62bc6cb2a3f\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Mahima\.gradle\caches\transforms-3\ca9a90cc951827426b66c62bc6cb2a3f\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Mahima\.gradle\caches\transforms-3\5fecb92d1a5e2ba2d8897812d57e9e7f\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Mahima\.gradle\caches\transforms-3\5fecb92d1a5e2ba2d8897812d57e9e7f\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\d78c5ffbc47ae8713412e20ab9381e18\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\d78c5ffbc47ae8713412e20ab9381e18\transformed\fragment-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Mahima\.gradle\caches\transforms-3\0f78b978251080eb2c0ddf4d0c3004c5\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Mahima\.gradle\caches\transforms-3\0f78b978251080eb2c0ddf4d0c3004c5\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\5281cbc2a3b725fb0c7fb844613feace\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\5281cbc2a3b725fb0c7fb844613feace\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\1d6511af98d2f13fe65c66c7e50771c3\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\1d6511af98d2f13fe65c66c7e50771c3\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\5c0e21734481f1755ed8cdacd949449e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\5c0e21734481f1755ed8cdacd949449e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\7183811079183eb1ce1b01bd937b4f9d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\7183811079183eb1ce1b01bd937b4f9d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\4450bb23fb026e7b936b659f58ff76b8\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\4450bb23fb026e7b936b659f58ff76b8\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\d4ab460bd57e8c748003ae5550e8c4c0\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\d4ab460bd57e8c748003ae5550e8c4c0\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\ed2a60612d5f77091e99fbc180c52955\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\ed2a60612d5f77091e99fbc180c52955\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Mahima\.gradle\caches\transforms-3\6f7c903c095d2014c5305f67fdd196ae\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Mahima\.gradle\caches\transforms-3\6f7c903c095d2014c5305f67fdd196ae\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\4d9da22dcae15a4cb04dfcec99dc93cb\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\4d9da22dcae15a4cb04dfcec99dc93cb\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\a69ed1ba0306fe58f48401bff3377521\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\a69ed1ba0306fe58f48401bff3377521\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\01f6cfa570c422b63345b2d2e5bce002\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\01f6cfa570c422b63345b2d2e5bce002\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\e37665f3b49d2e00f490430bb01ec0a6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\e37665f3b49d2e00f490430bb01ec0a6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Mahima\.gradle\caches\transforms-3\a0173b7667da6881fe7241e463e09e20\transformed\core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Mahima\.gradle\caches\transforms-3\a0173b7667da6881fe7241e463e09e20\transformed\core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\1ab6f894baed7934ddc2a05f351cf22c\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\1ab6f894baed7934ddc2a05f351cf22c\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\9e231cc669a98adc22f31757db979ac9\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\9e231cc669a98adc22f31757db979ac9\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\c5fb04182dd9f89ea10256565644cee0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\c5fb04182dd9f89ea10256565644cee0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6193742be14e2cf92eec5b3c70876e3\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6193742be14e2cf92eec5b3c70876e3\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\528b4fdc40341f759b567b6297d03d32\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\528b4fdc40341f759b567b6297d03d32\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\c9fbe8d5a68bc400e9ddd45ef1d96b1e\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\c9fbe8d5a68bc400e9ddd45ef1d96b1e\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\932f2cf7d39f8ad9d4e5ed8975a44264\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\932f2cf7d39f8ad9d4e5ed8975a44264\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\82f211194393e043032ac3876d7412f4\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\82f211194393e043032ac3876d7412f4\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\3fe1b3d0ae379aca7b41d1084269423d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\3fe1b3d0ae379aca7b41d1084269423d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\9969f2246e6e158f99b5fbbb8a462145\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\9969f2246e6e158f99b5fbbb8a462145\transformed\lifecycle-viewmodel-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\2bc1c9dc21a9c86e190b9edb250a6f0b\transformed\firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\2bc1c9dc21a9c86e190b9edb250a6f0b\transformed\firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\f9aaeaf849bd3a7496ae3e1e5398dfcd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mahima\.gradle\caches\transforms-3\f9aaeaf849bd3a7496ae3e1e5398dfcd\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\6b47b8759a317a8b215fa81a1c0882ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\6b47b8759a317a8b215fa81a1c0882ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\2d7298af760bb715cd7e1ac4b7c67e98\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\2d7298af760bb715cd7e1ac4b7c67e98\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\a89b4176ae0482bc5fee7d8fee2c1477\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\a89b4176ae0482bc5fee7d8fee2c1477\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\78ba350d3daff8d88f18836d29c25de5\transformed\lifecycle-livedata-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\78ba350d3daff8d88f18836d29c25de5\transformed\lifecycle-livedata-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\1362d2e8fa6b666e1d7606e4bb2166c6\transformed\lifecycle-livedata-core-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\1362d2e8fa6b666e1d7606e4bb2166c6\transformed\lifecycle-livedata-core-ktx-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\1bbff8741a5d9ed9bf4cb5f6543481ac\transformed\lifecycle-livedata-core-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] C:\Users\Mahima\.gradle\caches\transforms-3\1bbff8741a5d9ed9bf4cb5f6543481ac\transformed\lifecycle-livedata-core-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\999c898940903dd6e3e02edabd927058\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\999c898940903dd6e3e02edabd927058\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\974ad29d09dfa38ef3b36af09034feda\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\974ad29d09dfa38ef3b36af09034feda\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\b33fa6960ef7f5c9ee370301c6e4e059\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\b33fa6960ef7f5c9ee370301c6e4e059\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\abed7ea1f5def48ce751ffca14d1f684\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\abed7ea1f5def48ce751ffca14d1f684\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\c1a6115d276eb1e755d92eacac6a76eb\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\c1a6115d276eb1e755d92eacac6a76eb\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\8bf8b51b69064d06b03e1c29175458d5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\8bf8b51b69064d06b03e1c29175458d5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\2563139f2a7b630213d2148e2525fdb5\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\2563139f2a7b630213d2148e2525fdb5\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\af2ffc81d23958a09ae00e61d88a0759\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\af2ffc81d23958a09ae00e61d88a0759\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\cfb51d0d05fa3bf25aaa889bdd19e840\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\cfb51d0d05fa3bf25aaa889bdd19e840\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Mahima\.gradle\caches\transforms-3\9945c5dfa4a6e66e3b3c65f3b8d3f720\transformed\grpc-android-1.52.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Mahima\.gradle\caches\transforms-3\9945c5dfa4a6e66e3b3c65f3b8d3f720\transformed\grpc-android-1.52.1\AndroidManifest.xml:5:5-7:41
 INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -275,41 +336,91 @@ INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidMa
 		INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Mahima\StudioProjects\EmergencyApp\app\src\main\AndroidManifest.xml
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\04137dab713f24befb7f76018578497c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\04137dab713f24befb7f76018578497c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:30:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:12:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Mahima\.gradle\caches\transforms-3\9945c5dfa4a6e66e3b3c65f3b8d3f720\transformed\grpc-android-1.52.1\AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Mahima\.gradle\caches\transforms-3\9945c5dfa4a6e66e3b3c65f3b8d3f720\transformed\grpc-android-1.52.1\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:12:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:32:9-36:35
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+		ADDED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:18:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+		ADDED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:17:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.4] C:\Users\Mahima\.gradle\caches\transforms-3\1728f7271a239140ad8b77600a87575b\transformed\firebase-firestore-24.4.4\AndroidManifest.xml:20:17-111
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.1] C:\Users\Mahima\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mahima\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mahima\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mahima\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mahima\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mahima\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\6b47b8759a317a8b215fa81a1c0882ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\6b47b8759a317a8b215fa81a1c0882ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\2d7298af760bb715cd7e1ac4b7c67e98\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\2d7298af760bb715cd7e1ac4b7c67e98\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\b6e302822a590fe98981ee89ab63c05d\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+ADDED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\9e231cc669a98adc22f31757db979ac9\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\9e231cc669a98adc22f31757db979ac9\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\9e231cc669a98adc22f31757db979ac9\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+ADDED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\9e231cc669a98adc22f31757db979ac9\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\9e231cc669a98adc22f31757db979ac9\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Mahima\.gradle\caches\transforms-3\9e231cc669a98adc22f31757db979ac9\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\6b47b8759a317a8b215fa81a1c0882ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\6b47b8759a317a8b215fa81a1c0882ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Mahima\.gradle\caches\transforms-3\6b47b8759a317a8b215fa81a1c0882ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
