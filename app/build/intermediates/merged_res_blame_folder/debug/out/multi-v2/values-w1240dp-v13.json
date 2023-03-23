@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.project.emergencyapp-mergeDebugResources-39:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.project.emergencyapp-mergeDebugResources-40:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mahima\\StudioProjects\\EmergencyApp\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "C:\\Users\\raash\\AndroidStudioProjects\\project\\EmergencyApp\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

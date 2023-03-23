@@ -28,7 +28,7 @@ public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBindi
   public final TextView DName;
 
   @NonNull
-  public final TextView Registera;
+  public final TextView Register;
 
   @NonNull
   public final TextView VNum;
@@ -64,7 +64,7 @@ public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBindi
   public final EditText vnumin;
 
   private FragmentAmbulanceRegisterFragmentBinding(@NonNull RelativeLayout rootView,
-      @NonNull TextView DCon, @NonNull TextView DName, @NonNull TextView Registera,
+      @NonNull TextView DCon, @NonNull TextView DName, @NonNull TextView Register,
       @NonNull TextView VNum, @NonNull EditText dconin, @NonNull EditText dnamein,
       @NonNull TextView pass, @NonNull TextView passc, @NonNull EditText passcin,
       @NonNull EditText passin, @NonNull Button sub, @NonNull TextView userid,
@@ -72,7 +72,7 @@ public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBindi
     this.rootView = rootView;
     this.DCon = DCon;
     this.DName = DName;
-    this.Registera = Registera;
+    this.Register = Register;
     this.VNum = VNum;
     this.dconin = dconin;
     this.dnamein = dnamein;
@@ -125,9 +125,9 @@ public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBindi
         break missingId;
       }
 
-      id = R.id.Registera;
-      TextView Registera = ViewBindings.findChildViewById(rootView, id);
-      if (Registera == null) {
+      id = R.id.Register;
+      TextView Register = ViewBindings.findChildViewById(rootView, id);
+      if (Register == null) {
         break missingId;
       }
 
@@ -198,7 +198,7 @@ public final class FragmentAmbulanceRegisterFragmentBinding implements ViewBindi
       }
 
       return new FragmentAmbulanceRegisterFragmentBinding((RelativeLayout) rootView, DCon, DName,
-          Registera, VNum, dconin, dnamein, pass, passc, passcin, passin, sub, userid, userin,
+          Register, VNum, dconin, dnamein, pass, passc, passcin, passin, sub, userid, userin,
           vnumin);
     }
     String missingId = rootView.getResources().getResourceName(id);

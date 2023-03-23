@@ -1,54 +1,54 @@
 [
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/fragment_home.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/fragment_home.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/fragment_hospital_register_fragment.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/fragment_hospital_register_fragment.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/activity_main.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/activity_main.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/app_bar_main.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/app_bar_main.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/activity_hospital_homepage.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/activity_hospital_homepage.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/nav_header_main.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/nav_header_main.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/content_main.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/content_main.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/fragment_ambulance_register_fragment.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/fragment_ambulance_register_fragment.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/fragment_gallery.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/fragment_gallery.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/activity_ambulance_homepage.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/activity_ambulance_homepage.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/activity_login.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/activity_login.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/fragment_home.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/activity_ambulance_homepage.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/activity_ambulance_homepage.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/content_main.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/content_main.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/nav_header_main.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/nav_header_main.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/fragment_slideshow.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/fragment_slideshow.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/fragment_ambulance_register_fragment.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/fragment_ambulance_register_fragment.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/activity_main.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/app_bar_main.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/app_bar_main.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/activity_hospital_homepage.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/activity_hospital_homepage.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/fragment_hospital_register_fragment.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/fragment_hospital_register_fragment.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/activity_registration.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/activity_registration.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/fragment_slideshow.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/fragment_slideshow.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/fragment_gallery.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/fragment_gallery.xml"
     },
     {
-        "merged": "com.project.emergencyapp-mergeDebugResources-40:/layout/activity_registration.xml",
-        "source": "com.project.emergencyapp-main-43:/layout/activity_registration.xml"
+        "merged": "com.project.emergencyapp-mergeDebugResources-41:/layout/activity_login.xml",
+        "source": "com.project.emergencyapp-main-44:/layout/activity_login.xml"
     }
 ]

@@ -24,7 +24,6 @@ id DName
 id HCon
 id HName
 id Register
-id Registera
 id Registerh
 id ScrollView01
 id VNum

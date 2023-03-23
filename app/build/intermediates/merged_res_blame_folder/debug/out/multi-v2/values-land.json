@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.project.emergencyapp-mergeDebugResources-39:/values-land/values-land.xml",
+            "outputFile": "com.project.emergencyapp-mergeDebugResources-40:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mahima\\.gradle\\caches\\transforms-3\\25752188f370a1a6c78bdba0b9bde02b\\transformed\\appcompat-1.4.1\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\raash\\.gradle\\caches\\transforms-3\\25752188f370a1a6c78bdba0b9bde02b\\transformed\\appcompat-1.4.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Mahima\\StudioProjects\\EmergencyApp\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "source": "C:\\Users\\raash\\AndroidStudioProjects\\project\\EmergencyApp\\app\\src\\main\\res\\values-land\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
@@ -31,7 +31,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Mahima\\.gradle\\caches\\transforms-3\\8cdd3ff77c858fe412a16b13b2c73177\\transformed\\material-1.5.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\raash\\.gradle\\caches\\transforms-3\\8cdd3ff77c858fe412a16b13b2c73177\\transformed\\material-1.5.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
