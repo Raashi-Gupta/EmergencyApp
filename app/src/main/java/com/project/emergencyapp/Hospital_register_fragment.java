@@ -6,8 +6,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -21,10 +23,12 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.GeoPoint;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
-import java.util.concurrent.Executor;
 
 ///**
 // * A simple {@link Fragment} subclass.
@@ -33,8 +37,11 @@ import java.util.concurrent.Executor;
 // */
 public class Hospital_register_fragment extends Fragment {
 
-    EditText HNamein,hconin,uidin,addhin,emailin,passhin,passchin;
-    RadioButton gbtn, pbtn;
+    EditText HNamein,hconin,uidin,addhin,emailin,passhin,passchin,latitude,longitude;
+    RadioButton gbtn, pbtn,srbtn;
+    String userID;
+    RadioGroup toh;
+    CheckBox checkBox1,checkBox2,checkBox3,checkBox4,checkBox5;
     Button reg;
     public Hospital_register_fragment() {
         // Required empty public constructor
@@ -50,10 +57,40 @@ public class Hospital_register_fragment extends Fragment {
         emailin=v.findViewById(R.id.emailin);
         passhin=v.findViewById(R.id.passhin);
         passchin=v.findViewById(R.id.passhcin);
+        latitude=v.findViewById(R.id.latin);
+        longitude=v.findViewById(R.id.lonin);
+//        Radio Group gor type of hospital
+//        toh=v.findViewById(R.id.toh);
+//        gbtn=v.findViewById(R.id.gbtn);
+//        pbtn=v.findViewById(R.id.pbtn);
+        final int[] s_toh_id = new int[1];
+
+//        if(toh.getCheckedRadioButtonId()== 0)
+//        {
+//            s_toh_id=toh.getCheckedRadioButtonId();
+//            srbtn=(RadioButton)v.findViewById(s_toh_id);
+//        }
+//        Checklist for different type of facilities
+        checkBox1=v.findViewById(R.id.checkBox1);
+        checkBox2=v.findViewById(R.id.checkBox2);
+        checkBox3=v.findViewById(R.id.checkBox3);
+        checkBox4=v.findViewById(R.id.checkBox4);
+        checkBox5=v.findViewById(R.id.checkBox5);
+
         reg=v.findViewById(R.id.sub);
         reg.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v1)
             {
+//                if(toh.getCheckedRadioButtonId()== -1)
+//                {
+//                    Toast.makeText(getActivity(),"Registration Failed",Toast.LENGTH_LONG).show();
+//                }
+//                else
+//                {
+//                    s_toh_id[0] =toh.getCheckedRadioButtonId();
+//                    srbtn=(RadioButton)v.findViewById(s_toh_id[0]);
+//
+//                }
                 finderr();
             }
         });
@@ -61,15 +98,45 @@ public class Hospital_register_fragment extends Fragment {
     }
     void finderr()
     {
+//        String toh=srbtn.getText().toString();
+        List<String> healthcare=new ArrayList<String>();
+        if(checkBox1.isChecked())
+        {
+            healthcare.add(checkBox1.getText().toString());
+        }
+        if(checkBox2.isChecked())
+        {
+            healthcare.add(checkBox2.getText().toString());
+        }
+        if(checkBox3.isChecked())
+        {
+            healthcare.add(checkBox3.getText().toString());
+        }
+        if(checkBox4.isChecked())
+        {
+            healthcare.add(checkBox4.getText().toString());
+
+        }
+        if(checkBox5.isChecked())
+        {
+            healthcare.add(checkBox5.getText().toString());
+        }
+//        String s_toh=srbtn.getText().toString();
+
         String name=HNamein.getText().toString();
         String scontact=hconin.getText().toString();
-        int contact=Integer.parseInt(scontact);
+        Long contact=Long.parseLong(scontact);
         String suid=uidin.getText().toString();
         int uid=Integer.parseInt(suid);
+        String s_lat=latitude.getText().toString();
+        String s_lon=longitude.getText().toString();
+        double lat=Double.parseDouble(s_lat);
+        double lon=Double.parseDouble(s_lon);
         String address=addhin.getText().toString();
         String email=emailin.getText().toString();
         String password=passhin.getText().toString();
         String cpassword=passchin.getText().toString();
+
         if(name=="")
         {
 //            Toast.makeText(getActivity(),"Field cant be empty",Toast.LENGTH_LONG).show();
@@ -98,6 +165,22 @@ public class Hospital_register_fragment extends Fragment {
         {
             Toast.makeText(getActivity(),"Registration Failed",Toast.LENGTH_LONG).show();
         }
+        else if (s_lat=="")
+        {
+            Toast.makeText(getActivity(),"Registration Failed",Toast.LENGTH_LONG).show();
+        }
+        else if (s_lon=="")
+        {
+            Toast.makeText(getActivity(),"Registration Failed",Toast.LENGTH_LONG).show();
+        }
+//        else if (s_toh=="")
+//        {
+//            Toast.makeText(getActivity(),"Registration Failed",Toast.LENGTH_LONG).show();
+//        }
+        else if(healthcare.isEmpty())
+        {
+            Toast.makeText(getActivity(),"Registration Failed",Toast.LENGTH_LONG).show();
+        }
         else if(email=="")
         {
             Toast.makeText(getActivity(),"Registration Failed",Toast.LENGTH_LONG).show();
@@ -110,48 +193,62 @@ public class Hospital_register_fragment extends Fragment {
         {
             Toast.makeText(getActivity(),"Registration Failed",Toast.LENGTH_LONG).show();
         }
-        else if(password!=cpassword)
+        else if(password==cpassword)
         {
             Toast.makeText(getActivity(),"Registration Failed",Toast.LENGTH_LONG).show();
         }
         else
         {
-            register(email,password,name,contact,uid,address);
+            register(email,password,name,contact,uid,address,healthcare,lat,lon);
         }
     }
-    private void register(String email,String password,String name,int contact,int uid,String address)
+
+
+
+
+    private void register(String email,String password,String name,Long contact,int uid,String address,List<String> healthcare,double lat,double lon)
     {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         FirebaseAuth auth = FirebaseAuth.getInstance();
-        auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener((Executor) Hospital_register_fragment.this, new OnCompleteListener<AuthResult>() {
+        auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener( new OnCompleteListener<AuthResult>() {
+
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful())
                 {
-                    Toast.makeText(getActivity(),"Registered Successfully",Toast.LENGTH_LONG).show();
+//                    Toast.makeText(getActivity(),"Registered Successfully",Toast.LENGTH_LONG).show();
 
                     FirebaseUser firebaseuser=auth.getCurrentUser();
-                    firebaseuser.sendEmailVerification();
-                    Map<String,Object> Hospitals=new HashMap<>();
-                    Hospitals.put("address",address);
-                    Hospitals.put("contact_number",contact);
-                    Hospitals.put("email",email);
-                    Hospitals.put("name",name);
-                    Hospitals.put("password",password);
-                    db.collection("users")
-                            .add(Hospitals)
-                            .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+//                    firebaseuser.sendEmailVerification();
+                    userID=auth.getCurrentUser().getUid();
+                    DocumentReference df=db.collection("Hospitals").document(email);
+                    Map<String,Object> user=new HashMap<>();
+                    user.put("address",address);
+                    user.put("contact_number",contact);
+                    user.put("email",email);
+                    user.put("name",name);
+                    user.put("password",password);
+                    user.put("hospital_type",toh);
+                    user.put("health_care_type",healthcare);
+                    user.put("hospital_type",toh);
+                    user.put("Location", new GeoPoint(lat,lon));
+                    df.set(user)
+                            .addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
-                                public void onSuccess(DocumentReference documentReference) {
-                                    Toast.makeText(getActivity(),"Data added Successfully",Toast.LENGTH_LONG).show();
-
+                                public void onSuccess(Void aVoid) {
+                                    Toast.makeText(getActivity(),"Registered Successfully",Toast.LENGTH_LONG).show();
+                                    //Opem User Profi;e after successful Registeration
+                                    Intent intent=new Intent(getActivity(),Login.class);
+                                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                    startActivity(intent);
+                                    getActivity().finish();
                                 }
                             });
-                    //Opem User Profi;e after successful Registeration
-                    Intent intent=new Intent(getActivity(),Login.class);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                    startActivity(intent);
-                    getActivity().finish();
+
+                }
+                else
+                {
+                    Toast.makeText(getActivity(),"Emailid already registered",Toast.LENGTH_LONG).show();
                 }
             }
         });

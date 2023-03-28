@@ -2,6 +2,7 @@ package com.project.emergencyapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +12,6 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -24,7 +24,6 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.Executor;
 
 ///**
 // * A simple {@link Fragment} subclass.
@@ -36,6 +35,7 @@ public class Ambulance_register_fragment extends Fragment {
 
         EditText dnamein,dconin,vnumin,userin,passin,passcin;
         Button reg;
+        String userID;
 //    // TODO: Rename parameter arguments, choose names that match
 //    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 //    private static final String ARG_PARAM1 = "param1";
@@ -62,22 +62,30 @@ public class Ambulance_register_fragment extends Fragment {
         reg.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v1)
             {
+
                 finderr();
             }
         });
         return v;
     }
+
+
+
+//    To read all variables in string form and validating the fields
     void finderr()
     {
         String name=dnamein.getText().toString();
         String scontact=dconin.getText().toString();
         long contact=Long.parseLong(scontact);
         String vehicle=vnumin.getText().toString();
-//        int uid=Integer.parseInt(vehicle);
-//        String address=addhin.getText().toString();
         String email=userin.getText().toString();
         String password=passin.getText().toString();
         String cpassword=passcin.getText().toString();
+
+
+
+
+//        Validating Name field
         if(name=="")
         {
 //            Toast.makeText(getActivity(),"Field cant be empty",Toast.LENGTH_LONG).show();
@@ -88,6 +96,11 @@ public class Ambulance_register_fragment extends Fragment {
 //            Toast.makeText(getActivity(),"Invalid name",Toast.LENGTH_LONG).show();
             Toast.makeText(getActivity(),"Registration Failed0",Toast.LENGTH_LONG).show();
         }
+
+
+
+
+//        Validating Contact field
         else if(scontact=="")
         {
 //            Toast.makeText(getActivity(),"Field cant be empty",Toast.LENGTH_LONG).show();
@@ -98,19 +111,41 @@ public class Ambulance_register_fragment extends Fragment {
             Toast.makeText(getActivity(),"Registration Failed1",Toast.LENGTH_LONG).show();
 //            Toast.makeText(getActivity(),"Invalid contact number ",Toast.LENGTH_LONG).show();
         }
+
+
+
+//      Validating Vehicle number
         else if(vehicle=="")
         {
             Toast.makeText(getActivity(),"Registration Failed2",Toast.LENGTH_LONG).show();
         }
 
+
+
+//      Validating Email
         else if(email=="")
         {
             Toast.makeText(getActivity(),"Registration Failed3",Toast.LENGTH_LONG).show();
         }
+        else if(!Patterns.EMAIL_ADDRESS.matcher(email).matches())
+        {
+            Toast.makeText(getActivity(),"Registration Failed3",Toast.LENGTH_LONG).show();
+        }
+
+
+
+
+//       Validating Password field
         else if(password=="")
         {
             Toast.makeText(getActivity(),"Registration Failed4",Toast.LENGTH_LONG).show();
         }
+
+
+
+
+
+//      Validating Confirm Password
         else if(cpassword=="")
         {
             Toast.makeText(getActivity(),"Registration Failed5",Toast.LENGTH_LONG).show();
@@ -119,63 +154,63 @@ public class Ambulance_register_fragment extends Fragment {
         {
             Toast.makeText(getActivity(),"Registration Failed6",Toast.LENGTH_LONG).show();
         }
+
+
+
+//        Validation Succesfull Updating and registering the user
         else
         {
             register(email,password,name,contact,vehicle);
         }
     }
+
+
+
+
+
+
+
     private void register(String email,String password,String name,Long contact,String vehicle)
     {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         FirebaseAuth auth = FirebaseAuth.getInstance();
-        auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener((Executor) Ambulance_register_fragment.this, new OnCompleteListener<AuthResult>() {
+        auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener( new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful())
                 {
-                    Toast.makeText(getActivity(),"Registered Successfully",Toast.LENGTH_LONG).show();
                     FirebaseUser firebaseuser=auth.getCurrentUser();
-                    firebaseuser.sendEmailVerification();
+//                    firebaseuser.sendEmailVerification();//Sending Verification mail
+                    userID=auth.getCurrentUser().getUid();
+                    DocumentReference df=db.collection("Ambulance").document(email);
+//                    Mapping the details of the user and storing it int db
                     Map<String,Object> user=new HashMap<>();
                     user.put("contact",contact);
                     user.put("Email",email);
                     user.put("Name",name);
                     user.put("Password",password);
                     user.put("Vehicle Number",vehicle);
-                    db.collection("Ambulance")
-                            .add(user)
-                            .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+                   df.set(user)
+                            .addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
-                                public void onSuccess(DocumentReference documentReference) {
-                                    Toast.makeText(getActivity(),"Data added Successfully",Toast.LENGTH_LONG).show();
+                                public void onSuccess(Void aVoid) {
+                                    //Opem User Profile after successful Registeration
+                                    Toast.makeText(getActivity(),"Registered Successfully",Toast.LENGTH_LONG).show();
+                                    Intent intent=new Intent(getActivity(),Login.class);
+                                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                    startActivity(intent);
+                                    getActivity().finish();
 
                                 }
                             });
-                    //Opem User Profi;e after successful Registeration
-                    Intent intent=new Intent(getActivity(),Login.class);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                    startActivity(intent);
-                    getActivity().finish();
+
+                }
+                else {
+                    Toast.makeText(getActivity(),"Email id already registered",Toast.LENGTH_LONG).show();
                 }
             }
         });
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

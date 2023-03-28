@@ -76,6 +76,18 @@ public final class FragmentHospitalRegisterFragmentBinding implements ViewBindin
   public final TextView ht;
 
   @NonNull
+  public final TextView lat;
+
+  @NonNull
+  public final EditText latin;
+
+  @NonNull
+  public final TextView lon;
+
+  @NonNull
+  public final EditText lonin;
+
+  @NonNull
   public final TextView passh;
 
   @NonNull
@@ -111,10 +123,11 @@ public final class FragmentHospitalRegisterFragmentBinding implements ViewBindin
       @NonNull CheckBox checkBox1, @NonNull CheckBox checkBox2, @NonNull CheckBox checkBox3,
       @NonNull CheckBox checkBox4, @NonNull CheckBox checkBox5, @NonNull TextView email,
       @NonNull EditText emailin, @NonNull RadioButton gbtn, @NonNull EditText hconin,
-      @NonNull EditText hnamein, @NonNull TextView ht, @NonNull TextView passh,
-      @NonNull TextView passhc, @NonNull EditText passhcin, @NonNull EditText passhin,
-      @NonNull RadioButton pbtn, @NonNull RadioGroup radiogrph, @NonNull Button sub,
-      @NonNull TextView toh, @NonNull TextView uid, @NonNull EditText uidin) {
+      @NonNull EditText hnamein, @NonNull TextView ht, @NonNull TextView lat,
+      @NonNull EditText latin, @NonNull TextView lon, @NonNull EditText lonin,
+      @NonNull TextView passh, @NonNull TextView passhc, @NonNull EditText passhcin,
+      @NonNull EditText passhin, @NonNull RadioButton pbtn, @NonNull RadioGroup radiogrph,
+      @NonNull Button sub, @NonNull TextView toh, @NonNull TextView uid, @NonNull EditText uidin) {
     this.rootView = rootView;
     this.HCon = HCon;
     this.HName = HName;
@@ -133,6 +146,10 @@ public final class FragmentHospitalRegisterFragmentBinding implements ViewBindin
     this.hconin = hconin;
     this.hnamein = hnamein;
     this.ht = ht;
+    this.lat = lat;
+    this.latin = latin;
+    this.lon = lon;
+    this.lonin = lonin;
     this.passh = passh;
     this.passhc = passhc;
     this.passhcin = passhcin;
@@ -270,6 +287,30 @@ public final class FragmentHospitalRegisterFragmentBinding implements ViewBindin
         break missingId;
       }
 
+      id = R.id.lat;
+      TextView lat = ViewBindings.findChildViewById(rootView, id);
+      if (lat == null) {
+        break missingId;
+      }
+
+      id = R.id.latin;
+      EditText latin = ViewBindings.findChildViewById(rootView, id);
+      if (latin == null) {
+        break missingId;
+      }
+
+      id = R.id.lon;
+      TextView lon = ViewBindings.findChildViewById(rootView, id);
+      if (lon == null) {
+        break missingId;
+      }
+
+      id = R.id.lonin;
+      EditText lonin = ViewBindings.findChildViewById(rootView, id);
+      if (lonin == null) {
+        break missingId;
+      }
+
       id = R.id.passh;
       TextView passh = ViewBindings.findChildViewById(rootView, id);
       if (passh == null) {
@@ -332,8 +373,8 @@ public final class FragmentHospitalRegisterFragmentBinding implements ViewBindin
 
       return new FragmentHospitalRegisterFragmentBinding((ScrollView) rootView, HCon, HName,
           Registerh, ScrollView01, addh, addhin, checkBox1, checkBox2, checkBox3, checkBox4,
-          checkBox5, email, emailin, gbtn, hconin, hnamein, ht, passh, passhc, passhcin, passhin,
-          pbtn, radiogrph, sub, toh, uid, uidin);
+          checkBox5, email, emailin, gbtn, hconin, hnamein, ht, lat, latin, lon, lonin, passh,
+          passhc, passhcin, passhin, pbtn, radiogrph, sub, toh, uid, uidin);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

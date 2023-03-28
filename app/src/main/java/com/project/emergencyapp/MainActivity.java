@@ -5,49 +5,23 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.firestore.CollectionReference;
-import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.QuerySnapshot;
-
-import java.util.List;
-
 public class MainActivity extends AppCompatActivity {
 
-    private Button mCheckButton;
-    private FirebaseFirestore firebaseFirestore;
-    private List<Hospital> hospitalList;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mCheckButton = (Button) findViewById(R.id.button_check);
-        firebaseFirestore = FirebaseFirestore.getInstance();
-        CollectionReference collectionReference = firebaseFirestore.collection("Hospitals");
-        mCheckButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                collectionReference.get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-                    @Override
-                    public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
-                        hospitalList = queryDocumentSnapshots.toObjects(Hospital.class);
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        System.out.println("Could not load");
-                    }
-                });
-            }
-        });
+
 
     }
 //    public void loginpg(View view) {
@@ -59,14 +33,43 @@ public class MainActivity extends AppCompatActivity {
 //        startActivity(intent);
 //    }
 
+//    All the fields and button from frontend
+    EditText uname,ucontact,uemail;
+    RadioGroup utoa;
+    RadioButton aot_ra,aot_fa,others;
+    Button notify;
+
+
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
         MenuInflater inflater=getMenuInflater();
         inflater.inflate(R.menu.activity_main_drawer,menu);
+//       Getting all the values
+        uname=findViewById(R.id.uname);
+        ucontact=findViewById(R.id.ucontact);
+        uemail=findViewById(R.id.uemail);
+        aot_fa=findViewById(R.id.aot_fa);
+        aot_ra=findViewById(R.id.aot_ra);
+        notify=findViewById(R.id.button_notify);
         return true;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+//   Menu button at Menu Bar
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id=item.getItemId();

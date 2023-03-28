@@ -8,6 +8,47 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/ambulance"
         android:text="Ambulance login done successfully"
         android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aname"
+        android:text="Name"
+        android:layout_below="@+id/ambulance"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Yname"
+        android:layout_below="@+id/ambulance"
+        android:layout_toRightOf="@+id/aname"
+        android:text="Your name"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/contact"-->
+<!--        android:text="Contact"-->
+<!--        android:layout_below="@+id/aname"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:textSize="15sp"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/Ycontact"-->
+<!--        android:layout_below="@+id/aname"-->
+<!--        android:layout_toRightOf="@+id/contact"-->
+<!--        android:text="Your name"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+
 </RelativeLayout>

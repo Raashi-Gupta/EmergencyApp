@@ -30,13 +30,13 @@ public final class ActivityMainBinding implements ViewBinding {
   public final RadioButton aotRa;
 
   @NonNull
-  public final Button buttonCheck;
-
-  @NonNull
   public final Button buttonNotify;
 
   @NonNull
   public final TextView contact;
+
+  @NonNull
+  public final TextView email;
 
   @NonNull
   public final TextView emerAct;
@@ -54,27 +54,31 @@ public final class ActivityMainBinding implements ViewBinding {
   public final EditText ucontact;
 
   @NonNull
+  public final EditText uemail;
+
+  @NonNull
   public final EditText uname;
 
   @NonNull
   public final RadioGroup utoa;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull RadioButton aotFa,
-      @NonNull RadioButton aotRa, @NonNull Button buttonCheck, @NonNull Button buttonNotify,
-      @NonNull TextView contact, @NonNull TextView emerAct, @NonNull TextView name,
+      @NonNull RadioButton aotRa, @NonNull Button buttonNotify, @NonNull TextView contact,
+      @NonNull TextView email, @NonNull TextView emerAct, @NonNull TextView name,
       @NonNull RadioButton others, @NonNull TextView toa, @NonNull EditText ucontact,
-      @NonNull EditText uname, @NonNull RadioGroup utoa) {
+      @NonNull EditText uemail, @NonNull EditText uname, @NonNull RadioGroup utoa) {
     this.rootView = rootView;
     this.aotFa = aotFa;
     this.aotRa = aotRa;
-    this.buttonCheck = buttonCheck;
     this.buttonNotify = buttonNotify;
     this.contact = contact;
+    this.email = email;
     this.emerAct = emerAct;
     this.name = name;
     this.others = others;
     this.toa = toa;
     this.ucontact = ucontact;
+    this.uemail = uemail;
     this.uname = uname;
     this.utoa = utoa;
   }
@@ -118,12 +122,6 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button_check;
-      Button buttonCheck = ViewBindings.findChildViewById(rootView, id);
-      if (buttonCheck == null) {
-        break missingId;
-      }
-
       id = R.id.button_notify;
       Button buttonNotify = ViewBindings.findChildViewById(rootView, id);
       if (buttonNotify == null) {
@@ -133,6 +131,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.contact;
       TextView contact = ViewBindings.findChildViewById(rootView, id);
       if (contact == null) {
+        break missingId;
+      }
+
+      id = R.id.email;
+      TextView email = ViewBindings.findChildViewById(rootView, id);
+      if (email == null) {
         break missingId;
       }
 
@@ -166,6 +170,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.uemail;
+      EditText uemail = ViewBindings.findChildViewById(rootView, id);
+      if (uemail == null) {
+        break missingId;
+      }
+
       id = R.id.uname;
       EditText uname = ViewBindings.findChildViewById(rootView, id);
       if (uname == null) {
@@ -178,8 +188,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, aotFa, aotRa, buttonCheck,
-          buttonNotify, contact, emerAct, name, others, toa, ucontact, uname, utoa);
+      return new ActivityMainBinding((RelativeLayout) rootView, aotFa, aotRa, buttonNotify, contact,
+          email, emerAct, name, others, toa, ucontact, uemail, uname, utoa);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

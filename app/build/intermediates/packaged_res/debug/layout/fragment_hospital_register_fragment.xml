@@ -86,12 +86,44 @@ android:layout_height="match_parent">
         android:id="@+id/addhin"
         android:layout_marginHorizontal="20dp"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude"
+        android:id="@+id/lat"
+        android:layout_below="@+id/addhin"
+        android:layout_marginHorizontal="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lat"
+        android:id="@+id/latin"
+        android:layout_marginHorizontal="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude"
+        android:id="@+id/lon"
+        android:layout_below="@+id/latin"
+        android:layout_marginHorizontal="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lon"
+        android:id="@+id/lonin"
+        android:layout_marginHorizontal="20dp"
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Type of Hospital"
         android:id="@+id/toh"
-        android:layout_below="@id/addhin"
+        android:layout_below="@id/lonin"
         android:layout_marginHorizontal="20dp"
         />
     <RadioGroup

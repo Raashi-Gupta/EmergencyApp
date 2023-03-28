@@ -5,19 +5,35 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.project.emergencyapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityAmbulanceHomepageBinding implements ViewBinding {
   @NonNull
   private final RelativeLayout rootView;
 
-  private ActivityAmbulanceHomepageBinding(@NonNull RelativeLayout rootView) {
+  @NonNull
+  public final TextView Yname;
+
+  @NonNull
+  public final TextView ambulance;
+
+  @NonNull
+  public final TextView aname;
+
+  private ActivityAmbulanceHomepageBinding(@NonNull RelativeLayout rootView,
+      @NonNull TextView Yname, @NonNull TextView ambulance, @NonNull TextView aname) {
     this.rootView = rootView;
+    this.Yname = Yname;
+    this.ambulance = ambulance;
+    this.aname = aname;
   }
 
   @Override
@@ -43,10 +59,32 @@ public final class ActivityAmbulanceHomepageBinding implements ViewBinding {
 
   @NonNull
   public static ActivityAmbulanceHomepageBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.Yname;
+      TextView Yname = ViewBindings.findChildViewById(rootView, id);
+      if (Yname == null) {
+        break missingId;
+      }
 
-    return new ActivityAmbulanceHomepageBinding((RelativeLayout) rootView);
+      id = R.id.ambulance;
+      TextView ambulance = ViewBindings.findChildViewById(rootView, id);
+      if (ambulance == null) {
+        break missingId;
+      }
+
+      id = R.id.aname;
+      TextView aname = ViewBindings.findChildViewById(rootView, id);
+      if (aname == null) {
+        break missingId;
+      }
+
+      return new ActivityAmbulanceHomepageBinding((RelativeLayout) rootView, Yname, ambulance,
+          aname);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
