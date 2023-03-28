@@ -8,6 +8,64 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/hospital"
         android:text="Hospital login done successfully"
         android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aname"
+        android:text="Name"
+        android:layout_below="@+id/hospital"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Yname"
+        android:layout_below="@+id/hospital"
+        android:layout_toRightOf="@+id/aname"
+        android:text="  "
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:text="Emailid : "
+        android:layout_below="@+id/aname"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uemail"
+        android:layout_below="@+id/aname"
+        android:layout_toRightOf="@+id/email"
+        android:text="  "
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:text="address : "
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uadd"
+        android:layout_below="@+id/email"
+        android:layout_toRightOf="@+id/add"
+        android:text="  "
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>

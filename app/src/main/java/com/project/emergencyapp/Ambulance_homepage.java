@@ -22,10 +22,14 @@ public class Ambulance_homepage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ambulance_homepage);
         TextView Yname=(TextView) findViewById(R.id.Yname);
-//        TextView Ycontact=(TextView) findViewById(R.id.Ycontact);
+        TextView uemail=(TextView) findViewById(R.id.uemail);
+        TextView uvno=(TextView) findViewById(R.id.uvno);
+//        TextView Yname=(TextView) findViewById(R.id.Yname);
+
+        //        TextView Ycontact=(TextView) findViewById(R.id.Ycontact);
         Intent intent = getIntent();
         String email = intent.getStringExtra("email");
-        DocumentReference docRef = db.collection("Ambulance").document("EYMRMCPLsYhC2iSJXY4MwnNxrUb2");
+        DocumentReference docRef = db.collection("Ambulance").document(email);
         docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>()
         {
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
@@ -34,6 +38,8 @@ public class Ambulance_homepage extends AppCompatActivity {
                     if (document.exists()) {
                         Log.d("R1", "DocumentSnapshot data: " + document.getData());
                         Yname.setText((CharSequence) document.get("Name"));
+                        uvno.setText((CharSequence) document.get("Vehicle Number"));
+                        uemail.setText((CharSequence) document.get("Email"));
 //                        Ycontact.setText((Integer) document.get("contact"));
                     } else {
                         Log.d("R", "No such document");

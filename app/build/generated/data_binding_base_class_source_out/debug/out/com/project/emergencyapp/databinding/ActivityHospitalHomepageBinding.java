@@ -5,19 +5,52 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.project.emergencyapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityHospitalHomepageBinding implements ViewBinding {
   @NonNull
   private final RelativeLayout rootView;
 
-  private ActivityHospitalHomepageBinding(@NonNull RelativeLayout rootView) {
+  @NonNull
+  public final TextView Yname;
+
+  @NonNull
+  public final TextView add;
+
+  @NonNull
+  public final TextView aname;
+
+  @NonNull
+  public final TextView email;
+
+  @NonNull
+  public final TextView hospital;
+
+  @NonNull
+  public final TextView uadd;
+
+  @NonNull
+  public final TextView uemail;
+
+  private ActivityHospitalHomepageBinding(@NonNull RelativeLayout rootView, @NonNull TextView Yname,
+      @NonNull TextView add, @NonNull TextView aname, @NonNull TextView email,
+      @NonNull TextView hospital, @NonNull TextView uadd, @NonNull TextView uemail) {
     this.rootView = rootView;
+    this.Yname = Yname;
+    this.add = add;
+    this.aname = aname;
+    this.email = email;
+    this.hospital = hospital;
+    this.uadd = uadd;
+    this.uemail = uemail;
   }
 
   @Override
@@ -43,10 +76,56 @@ public final class ActivityHospitalHomepageBinding implements ViewBinding {
 
   @NonNull
   public static ActivityHospitalHomepageBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.Yname;
+      TextView Yname = ViewBindings.findChildViewById(rootView, id);
+      if (Yname == null) {
+        break missingId;
+      }
 
-    return new ActivityHospitalHomepageBinding((RelativeLayout) rootView);
+      id = R.id.add;
+      TextView add = ViewBindings.findChildViewById(rootView, id);
+      if (add == null) {
+        break missingId;
+      }
+
+      id = R.id.aname;
+      TextView aname = ViewBindings.findChildViewById(rootView, id);
+      if (aname == null) {
+        break missingId;
+      }
+
+      id = R.id.email;
+      TextView email = ViewBindings.findChildViewById(rootView, id);
+      if (email == null) {
+        break missingId;
+      }
+
+      id = R.id.hospital;
+      TextView hospital = ViewBindings.findChildViewById(rootView, id);
+      if (hospital == null) {
+        break missingId;
+      }
+
+      id = R.id.uadd;
+      TextView uadd = ViewBindings.findChildViewById(rootView, id);
+      if (uadd == null) {
+        break missingId;
+      }
+
+      id = R.id.uemail;
+      TextView uemail = ViewBindings.findChildViewById(rootView, id);
+      if (uemail == null) {
+        break missingId;
+      }
+
+      return new ActivityHospitalHomepageBinding((RelativeLayout) rootView, Yname, add, aname,
+          email, hospital, uadd, uemail);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

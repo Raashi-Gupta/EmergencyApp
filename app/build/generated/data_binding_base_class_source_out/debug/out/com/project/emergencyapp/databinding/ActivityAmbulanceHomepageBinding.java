@@ -28,12 +28,30 @@ public final class ActivityAmbulanceHomepageBinding implements ViewBinding {
   @NonNull
   public final TextView aname;
 
+  @NonNull
+  public final TextView email;
+
+  @NonNull
+  public final TextView uemail;
+
+  @NonNull
+  public final TextView uvno;
+
+  @NonNull
+  public final TextView vno;
+
   private ActivityAmbulanceHomepageBinding(@NonNull RelativeLayout rootView,
-      @NonNull TextView Yname, @NonNull TextView ambulance, @NonNull TextView aname) {
+      @NonNull TextView Yname, @NonNull TextView ambulance, @NonNull TextView aname,
+      @NonNull TextView email, @NonNull TextView uemail, @NonNull TextView uvno,
+      @NonNull TextView vno) {
     this.rootView = rootView;
     this.Yname = Yname;
     this.ambulance = ambulance;
     this.aname = aname;
+    this.email = email;
+    this.uemail = uemail;
+    this.uvno = uvno;
+    this.vno = vno;
   }
 
   @Override
@@ -81,8 +99,32 @@ public final class ActivityAmbulanceHomepageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.email;
+      TextView email = ViewBindings.findChildViewById(rootView, id);
+      if (email == null) {
+        break missingId;
+      }
+
+      id = R.id.uemail;
+      TextView uemail = ViewBindings.findChildViewById(rootView, id);
+      if (uemail == null) {
+        break missingId;
+      }
+
+      id = R.id.uvno;
+      TextView uvno = ViewBindings.findChildViewById(rootView, id);
+      if (uvno == null) {
+        break missingId;
+      }
+
+      id = R.id.vno;
+      TextView vno = ViewBindings.findChildViewById(rootView, id);
+      if (vno == null) {
+        break missingId;
+      }
+
       return new ActivityAmbulanceHomepageBinding((RelativeLayout) rootView, Yname, ambulance,
-          aname);
+          aname, email, uemail, uvno, vno);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

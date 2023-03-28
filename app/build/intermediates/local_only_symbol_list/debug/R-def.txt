@@ -29,6 +29,7 @@ id ScrollView01
 id VNum
 id Yname
 id action_settings
+id add
 id addh
 id addhin
 id amb_bttn
@@ -57,6 +58,7 @@ id hconin
 id hnamein
 id hos_bttn
 id hos_reg
+id hospital
 id ht
 id imageView
 id lat
@@ -95,6 +97,7 @@ id text_slideshow
 id toa
 id toh
 id toolbar
+id uadd
 id ucontact
 id uemail
 id uid
@@ -103,6 +106,8 @@ id uname
 id userid
 id userin
 id utoa
+id uvno
+id vno
 id vnumin
 layout activity_ambulance_homepage
 layout activity_hospital_homepage
